@@ -3,8 +3,6 @@
 // http://www.learningprocessing.com
 
 // Example 1-3: RGB Color
-smooth();
-
 background(255);
 noStroke();
 
