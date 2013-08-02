@@ -4,7 +4,7 @@
 
 // Example 3-5: mousePressed and keyPressed
 void setup() {
-  size(200,200);
+  size(640,0);
   background(255);
 }
 

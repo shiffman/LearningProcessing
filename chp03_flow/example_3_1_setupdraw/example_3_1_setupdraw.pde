@@ -5,39 +5,39 @@
 // Example 3-1: Zoog as dynamic sketch
 
 // setup() runs first one time.  
-// size() should always be first line of setup() since 
-// Processing won’t be able to do anything before the window size is specified.
+// size() should always be first line of setup
+
 void setup() {
   // Set the size of the window
-  size(200,200);  
+  size(640, 360);
 }
 
 // draw() loops continuously until you close the sketch window.
 void draw() {
   // Draw a white background
   background(255);   
-  
+
   // Set CENTER mode
   ellipseMode(CENTER);
   rectMode(CENTER); 
 
-  // Draw Zoog's body
+  // Body
   stroke(0);
   fill(150);
-  rect(100,100,20,100);
+  rect(320, 190, 20, 100);
 
-  // Draw Zoog's head
-  stroke(0);
+  // Head
   fill(255);
-  ellipse(100,70,60,60); 
+  ellipse(320, 160, 60, 60); 
 
-  // Draw Zoog's eyes
+  // Eyes
   fill(0); 
-  ellipse(81,70,16,32); 
-  ellipse(119,70,16,32);
+  ellipse(301, 160, 16, 32); 
+  ellipse(339, 160, 16, 32);
 
-  // Draw Zoog's legs
+  // Legs
   stroke(0);
-  line(90,150,80,160);
-  line(110,150,120,160);
+  line(310, 240, 300, 250);
+  line(330, 240, 340, 250);
 }
+

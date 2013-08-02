@@ -5,8 +5,7 @@
 // Example 3-6: Interactive Zoog?
 void setup() {
   // Set the size of the window
-  size(200,200);  
-  smooth();
+  size(640,360);  
   // The frame rate is set to 30 frames per second.
   frameRate(30);
 }
@@ -31,7 +30,7 @@ void draw() {
 
   // Draw Zoog's eyes
   // The eye color is determined by the mouse location.
-  fill(mouseX,0,mouseY); 
+  fill(mouseX/2,0,mouseY/2); 
   ellipse(mouseX-19,mouseY-30,16,32); 
   ellipse(mouseX+19,mouseY-30,16,32); 
 

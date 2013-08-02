@@ -5,7 +5,7 @@
 // Example 3-2: mouseX and mouseY
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {
