@@ -8,7 +8,7 @@ Below is a list of all the videos I intend to make as well as their current stat
 ## Intro
 
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
 	<tr><td>0.0 Introduction to video series</td><td>https://vimeo.com/channels/introcompmedia/70521542</td></tr>
 	<tr><td>0.1 Who am I, who are you?</td>      <td>https://vimeo.com/channels/introcompmedia/70427341</td></tr>
 	<tr><td>0.2 How and why learn programming?</td>      <td>https://vimeo.com/channels/introcompmedia/70427342</td></tr>
