@@ -9,13 +9,14 @@ Below is a list of all the videos I intend to make as well as their current stat
 
 <table>
 	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
-	<tr><td>0.0 Introduction to video series</td><td>https://vimeo.com/channels/introcompmedia/70521542</td></tr>
-	<tr><td>0.1 Who am I, who are you?</td>      <td>https://vimeo.com/channels/introcompmedia/70427341</td></tr>
-	<tr><td>0.2 How and why learn programming?</td>      <td>https://vimeo.com/channels/introcompmedia/70427342</td></tr>
-	<tr><td>0.3 What is programming?</td>        <td>https://vimeo.com/channels/introcompmedia/70427343</td></tr>
-	<tr><td>0.4 Programming languages</td> <td>https://vimeo.com/channels/introcompmedia/71113840</td></tr>
-	<tr><td>0.5 Processing examples</td><td>https://vimeo.com/channels/introcompmedia/71113842</td></tr>
-	<tr><td>0.6 Overview of topics</td><td>https://vimeo.com/channels/introcompmedia/71113841</td></tr>
+	<tr><td>0.0 Introduction to video series</td><td>https://vimeo.com/channels/introcompmedia/70521542</td><td></td></tr>
+	<tr><td>0.1 Who am I, who are you?</td><td>https://vimeo.com/channels/introcompmedia/70427341</td><td></td></tr>
+	<tr><td>0.2 How and why learn programming?</td><td>https://vimeo.com/channels/introcompmedia/70427342</td><td></td></tr>
+	<tr><td>0.3 What is programming?</td><td>https://vimeo.com/channels/introcompmedia/70427343</td><td></td></tr>
+	<tr><td>0.4 Programming languages</td><td>https://vimeo.com/channels/introcompmedia/71113840</td><td></td></tr>
+	<tr><td>0.5 Processing examples</td><td>https://vimeo.com/channels/introcompmedia/71113842</td><td></td></tr>
+	<tr><td>0.6 Overview of topics</td><td>https://vimeo.com/channels/introcompmedia/71113841</td><td></td></tr>
+
 </table>
 
 
