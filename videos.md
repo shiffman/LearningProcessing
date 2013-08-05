@@ -8,10 +8,11 @@ Below is a list of all the videos I intend to make as well as their current stat
 ## Intro
 
 <table>
-	<tr><td width = 50%>0.0 Introduction to video series</td><td>TO DO</td></tr>
-	<tr><td width = 50%>0.1 Who am I, who are you?</td><td>TO DO</td></tr>
-	<tr><td width = 50%>0.2 Why learn programming?</td><td>TO DO</td></tr>
-	<tr><td width = 50%>0.3 What is programming?</td><td>TO DO</td></tr>
+	<t><th width=50%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><td>0.0 Introduction to video series</td><td>TO DO</td></tr>
+	<tr><td>0.1 Who am I, who are you?</td>      <td>TO DO</td></tr>
+	<tr><td>0.2 Why learn programming?</td>      <td>TO DO</td></tr>
+	<tr><td>0.3 What is programming?</td>        <td>TO DO</td></tr>
 </table>
 
 
