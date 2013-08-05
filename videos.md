@@ -23,13 +23,15 @@ Below is a list of all the videos I intend to make as well as their current stat
 
 <table>
 	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
-    <tr><td>Coordinate system and pixels</td><td>TO DO</td></tr>
-    <tr><td>Color</td><td>TO DO</td></tr>
-    <tr><td>Transformations  (Basic!)</td><td>TO DO</td></tr>
+    <tr><td>1.0 Coordinate system and pixels</td><td>https://vimeo.com/channels/introcompmedia/71517005</td></tr>
+    <tr><td>1.1 Getting started in the PRocessing IDE</td><tr>https://vimeo.com/channels/introcompmedia/71517004</td></tr>
+    <tr><td>1.2 Color</td><td>https://vimeo.com/channels/introcompmedia/71517006</td></tr>
+    <tr><td>1.3 Basic transformations</td><td>TO DO</td></tr>
 </table>
 
 
 ## Variables
+
 <table>
 	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
     <tr><td>Flow, setup and draw</td><td>TODO, TODO</td></tr>
@@ -58,10 +60,11 @@ Below is a list of all the videos I intend to make as well as their current stat
 <table>
 	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
     <tr><td>while loop</td><td>TODO</td></tr>
-    <tr><td>while loop exercise</td><td>TODO '''sorry, we lost the whiteboard with this one!'''</td></tr>
+    <tr><td>while loop exercise</td><td>TODO</td></tr>
     <tr><td>for loop</td><td>TODO</td></tr>
     <tr><td>variable scope</td><td>TODO</td></tr>
-    <tr><td>loop within a loop, i.e. loop inside draw()</td><td>TODO|</td></tr>nested loops |TODO |
+    <tr><td>loop within a loop, i.e. loop inside draw()</td><td>TODO</td></tr>
+    <tr><td>nested loops</td><td>TO DO</td></tr>
 </table>
 
 <table>
