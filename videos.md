@@ -16,7 +16,6 @@ Below is a list of all the videos I intend to make as well as their current stat
 	<tr><td>0.4 Programming languages</td><td>https://vimeo.com/channels/introcompmedia/71113840</td><td></td></tr>
 	<tr><td>0.5 Processing examples</td><td>https://vimeo.com/channels/introcompmedia/71113842</td><td></td></tr>
 	<tr><td>0.6 Overview of topics</td><td>https://vimeo.com/channels/introcompmedia/71113841</td><td></td></tr>
-
 </table>
 
 
@@ -48,7 +47,7 @@ Below is a list of all the videos I intend to make as well as their current stat
 * We had a problem with the mic on these so the audio is from a room mic.
 
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>boolean expressions, relational operators</td><td>TODO, forgot == and !=</td></tr>
     <tr><td>quick fill-in about == and !=</td><td>TO DO</td></tr>
     <tr><td>if, else if, else</td><td>TODO this one is kind of a mess</td></tr>
@@ -59,8 +58,10 @@ Below is a list of all the videos I intend to make as well as their current stat
     <tr><td>Traditional interface elements -- button, rollover, slider, dragging shape</td><td>TO DO</td></tr>
 </table>
 
+## Loops
+
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>while loop</td><td>TODO</td></tr>
     <tr><td>while loop exercise</td><td>TODO</td></tr>
     <tr><td>for loop</td><td>TODO</td></tr>
@@ -69,8 +70,10 @@ Below is a list of all the videos I intend to make as well as their current stat
     <tr><td>nested loops</td><td>TO DO</td></tr>
 </table>
 
+## Functions and Objects
+
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>Functions and Objects, an introduction, modularity and reusability, we are doing this already!</td><td>TODO</td></tr>
     <tr><td>Functions, modularity -- defining vs. calling</td><td>TODO</td></tr>
     <tr><td>Functions, modularity -- divide bouncing ball into parts</td><td>TODO</td></tr>
@@ -86,8 +89,10 @@ Below is a list of all the videos I intend to make as well as their current stat
     <tr><td>Advanced: Inheritance and polymorphism</td><td>TO DO</td></tr>
 </table>
 
+## Arrays
+
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>What is an array and why do we need one?</td><td>TODO</td></tr>
     <tr><td>Declare, initialize, and use arrays</td><td>TODO</td></tr>
     <tr><td>Arrays of objects</td><td>TODO</td></tr>
@@ -95,8 +100,10 @@ Below is a list of all the videos I intend to make as well as their current stat
     <tr><td>Resizing an array?</td><td>TODO</td></tr>
     <tr><td>ArrayList</td><td>TO DO</td></tr>
 
+## Images
+
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>Loading and displaying images (tint)</td><td>TO DO</td></tr>
     <tr><td>Array of Images</td><td>TO DO</td></tr>
     <tr><td>Intro to pixel array</td><td>TO DO</td></tr>
@@ -106,18 +113,22 @@ Below is a list of all the videos I intend to make as well as their current stat
     <tr><td>Painting machines (using pixels as database of colors)</td><td>TO DO</td></tr>
 </table>
 
+# Video
+
 <table>
-	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>Basics of live Capture</td><td>TO DO</td></tr>
     <tr><td>Basics of Movie playback</td><td>TO DO</td></tr>
     <tr><td>Everything you learned about pixels, you can do with video</td><td>TO DO</td></tr>
     <tr><td>Computer vision: intro to tracking</td><td>TO DO</td></tr>
     <tr><td>Computer vision: intro to motion detection</td><td>TO DO</td></tr>
     <tr><td>Computer vision: intro to background removal</td><td>TO DO</td></tr>
-    <tr><td>Computer vision: intro to the kinect depth</td><td>TO DO</td></tr>
-    <tr><td>Computer vision: intro to the kinect, skeleton tracking</td><td>TO DO</td></tr>
-    <tr><td>Other libraries: OpenCV, CCV</td><td>TO DO</td></tr>
+    <tr><td>Other libraries: kinect, leap, etc</td><td>TO DO</td></tr>
+    <tr><td>Other libraries: OpenCV, TSPS, CCV</td><td>TO DO</td></tr>
 </table>
 
 ## Data
 
+<table>
+	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
+</table>
