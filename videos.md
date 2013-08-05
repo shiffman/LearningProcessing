@@ -8,106 +8,111 @@ Below is a list of all the videos I intend to make as well as their current stat
 ## Intro
 
 <table>
-	<t><th width=50%>Topics</th><th width = 50%>Status</th></tr>
-	<tr><td>0.0 Introduction to video series</td><td>TO DO</td></tr>
-	<tr><td>0.1 Who am I, who are you?</td>      <td>TO DO</td></tr>
-	<tr><td>0.2 Why learn programming?</td>      <td>TO DO</td></tr>
-	<tr><td>0.3 What is programming?</td>        <td>TO DO</td></tr>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+	<tr><td>0.0 Introduction to video series</td><td>https://vimeo.com/channels/introcompmedia/70521542</td></tr>
+	<tr><td>0.1 Who am I, who are you?</td>      <td>https://vimeo.com/channels/introcompmedia/70427341</td></tr>
+	<tr><td>0.2 How and why learn programming?</td>      <td>https://vimeo.com/channels/introcompmedia/70427342</td></tr>
+	<tr><td>0.3 What is programming?</td>        <td>https://vimeo.com/channels/introcompmedia/70427343</td></tr>
+	<tr><td>0.4 Programming languages</td> <td>https://vimeo.com/channels/introcompmedia/71113840</td></tr>
+	<tr><td>0.5 Processing examples</td><td>https://vimeo.com/channels/introcompmedia/71113842</td></tr>
+	<tr><td>0.6 Overview of topics</td><td>https://vimeo.com/channels/introcompmedia/71113841</td></tr>
 </table>
 
 
 ## Drawing
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|Coordinate system and pixels    |TO DO |
-|Color     |TO DO |
-|Transformations  (Basic!)   |TO DO |
+
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>Coordinate system and pixels</td><td>TO DO</td></tr>
+    <tr><td>Color</td><td>TO DO</td></tr>
+    <tr><td>Transformations  (Basic!)</td><td>TO DO</td></tr>
+</table>
 
 
 ## Variables
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|Flow, setup and draw    |TODO, TODO |
-|Built-in variables (mouseX,mouseY)     |TODO ('''this one cuts out before it is done. . sorry!!''') |
-|User created variables, make a circle move!     |TO DO |
-|Random!     |TO DO |
-|Events, mousePressed, keyPressed!     |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>Flow, setup and draw</td><td>TODO, TODO</td></tr>
+    <tr><td>Built-in variables (mouseX,mouseY)</td><td>TODO ('''this one cuts out before it is done. . sorry!!''')</td></tr>
+    <tr><td>User created variables, make a circle move!</td><td>TO DO</td></tr>
+    <tr><td>Random!</td><td>TO DO</td></tr>
+    <tr><td>Events, mousePressed, keyPressed!</td><td>TO DO</td></tr>
 |How to use println() |TO DO|
+</table>
 
 ## Conditionals
 * We had a problem with the mic on these so the audio is from a room mic.
 
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|boolean expressions, relational operators   |TODO, forgot == and != |
-|quick fill-in about == and != |TO DO |
-|if, else if, else     |TODO this one is kind of a mess |
-|logical operators: AND, OR |TODO too long? |
-|what's a boolean variable? |TO DO |
-|The bouncing ball!  |TODO |
-|Gravity? |TO DO |
-|Traditional interface elements -- button, rollover, slider, dragging shape |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>boolean expressions, relational operators</td><td>TODO, forgot == and !=</td></tr>
+    <tr><td>quick fill-in about == and !=</td><td>TO DO</td></tr>
+    <tr><td>if, else if, else</td><td>TODO this one is kind of a mess</td></tr>
+    <tr><td>logical operators: AND, OR</td><td>TODO too long?</td></tr>
+    <tr><td>what's a boolean variable?</td><td>TO DO</td></tr>
+    <tr><td>The bouncing ball!</td><td>TODO</td></tr>
+    <tr><td>Gravity?</td><td>TO DO</td></tr>
+    <tr><td>Traditional interface elements -- button, rollover, slider, dragging shape</td><td>TO DO</td></tr>
+</table>
 
-## Loops
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|while loop |TODO |
-|while loop exercise |TODO '''sorry, we lost the whiteboard with this one!''' |
-|for loop |TODO |
-|variable scope |TODO |
-|loop within a loop, i.e. loop inside draw() |TODO|
-|nested loops |TODO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>while loop</td><td>TODO</td></tr>
+    <tr><td>while loop exercise</td><td>TODO '''sorry, we lost the whiteboard with this one!'''</td></tr>
+    <tr><td>for loop</td><td>TODO</td></tr>
+    <tr><td>variable scope</td><td>TODO</td></tr>
+    <tr><td>loop within a loop, i.e. loop inside draw()</td><td>TODO|</td></tr>nested loops |TODO |
+</table>
 
-##Functions/Objects
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|Functions and Objects, an introduction, modularity and reusability, we are doing this already! |TODO |
-|Functions, modularity -- defining vs. calling |TODO |
-|Functions, modularity -- divide bouncing ball into parts |TODO |
-|Functions arguments, re-usability |TODO |
-|Functions return type |TO DO |
-|Objects, an intro, bouncing ball object |TODO |
-|Objects, an intro, writing the class 1 |TODO |
-|Objects, an intro, writing the class 2 |TODO |
-|Objects, more than one, variety, constructor arguments |TODO |
-|Objects, they are data types too!  objects in objects |TO DO |
-|Function arguments: Pass by copy vs. Pass by reference |TO DO |
-|Objects, they can talk to each other! |TO DO |
-|Advanced: Inheritance and polymorphism |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>Functions and Objects, an introduction, modularity and reusability, we are doing this already!</td><td>TODO</td></tr>
+    <tr><td>Functions, modularity -- defining vs. calling</td><td>TODO</td></tr>
+    <tr><td>Functions, modularity -- divide bouncing ball into parts</td><td>TODO</td></tr>
+    <tr><td>Functions arguments, re-usability</td><td>TODO</td></tr>
+    <tr><td>Functions return type</td><td>TO DO</td></tr>
+    <tr><td>Objects, an intro, bouncing ball object</td><td>TODO</td></tr>
+    <tr><td>Objects, an intro, writing the class 1</td><td>TODO</td></tr>
+    <tr><td>Objects, an intro, writing the class 2</td><td>TODO</td></tr>
+    <tr><td>Objects, more than one, variety, constructor arguments</td><td>TODO</td></tr>
+    <tr><td>Objects, they are data types too!  objects in objects</td><td>TO DO</td></tr>
+    <tr><td>Function arguments: Pass by copy vs. Pass by reference</td><td>TO DO</td></tr>
+    <tr><td>Objects, they can talk to each other!</td><td>TO DO</td></tr>
+    <tr><td>Advanced: Inheritance and polymorphism</td><td>TO DO</td></tr>
+</table>
 
-## Arrays
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|What is an array and why do we need one? |TODO |
-|Declare, initialize, and use arrays |TODO |
-|Arrays of objects |TODO |
-|Arrays plus loops |TODO |
-|Resizing an array? |TODO |
-|ArrayList |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>What is an array and why do we need one?</td><td>TODO</td></tr>
+    <tr><td>Declare, initialize, and use arrays</td><td>TODO</td></tr>
+    <tr><td>Arrays of objects</td><td>TODO</td></tr>
+    <tr><td>Arrays plus loops</td><td>TODO</td></tr>
+    <tr><td>Resizing an array?</td><td>TODO</td></tr>
+    <tr><td>ArrayList</td><td>TO DO</td></tr>
 
-## Images and Pixels
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|Loading and displaying images (tint) |TO DO |
-|Array of Images |TO DO |
-|Intro to pixel array |TO DO |
-|Reading the pixels of an image (brightness) |TO DO |
-|Writing pixels to a blank image |TO DO |
-|Neighborhood pixel operations (blur) |TO DO |
-|Painting machines (using pixels as database of colors) |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>Loading and displaying images (tint)</td><td>TO DO</td></tr>
+    <tr><td>Array of Images</td><td>TO DO</td></tr>
+    <tr><td>Intro to pixel array</td><td>TO DO</td></tr>
+    <tr><td>Reading the pixels of an image (brightness)</td><td>TO DO</td></tr>
+    <tr><td>Writing pixels to a blank image</td><td>TO DO</td></tr>
+    <tr><td>Neighborhood pixel operations (blur)</td><td>TO DO</td></tr>
+    <tr><td>Painting machines (using pixels as database of colors)</td><td>TO DO</td></tr>
+</table>
 
-## Video
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|Basics of live Capture |TO DO |
-|Basics of Movie playback |TO DO |
-|Everything you learned about pixels, you can do with video |TO DO |
-|Computer vision: intro to tracking |TO DO |
-|Computer vision: intro to motion detection |TO DO |
-|Computer vision: intro to background removal |TO DO |
-|Computer vision: intro to the kinect depth |TO DO |
-|Computer vision: intro to the kinect, skeleton tracking |TO DO |
-|Other libraries: OpenCV, CCV |TO DO |
+<table>
+	<tr><th width=%>Topics</th><th width = 50%>Status</th></tr>
+    <tr><td>Basics of live Capture</td><td>TO DO</td></tr>
+    <tr><td>Basics of Movie playback</td><td>TO DO</td></tr>
+    <tr><td>Everything you learned about pixels, you can do with video</td><td>TO DO</td></tr>
+    <tr><td>Computer vision: intro to tracking</td><td>TO DO</td></tr>
+    <tr><td>Computer vision: intro to motion detection</td><td>TO DO</td></tr>
+    <tr><td>Computer vision: intro to background removal</td><td>TO DO</td></tr>
+    <tr><td>Computer vision: intro to the kinect depth</td><td>TO DO</td></tr>
+    <tr><td>Computer vision: intro to the kinect, skeleton tracking</td><td>TO DO</td></tr>
+    <tr><td>Other libraries: OpenCV, CCV</td><td>TO DO</td></tr>
+</table>
 
 ## Data
 
