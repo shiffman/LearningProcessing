@@ -6,11 +6,14 @@ Below is a list of all the videos I intend to make as well as their current stat
 * All of the videos can be found on the [Computer Programming for the Total Beginner vimeo channel](https://vimeo.com/channels/introcompmedia/).
 
 ## Intro
-|Topic                                                                                  |Status |
-|---------------------------------------------------------------------------------------|-------|
-|What is programming? (demo algorithm to draw picture?)    |TO DO |
-|Overview of programming languages, what is Processing?    |TO DO |
-|Overview: What are all the fundamental concepts we are going to learn?  variables, conditionals, loops, functions, objects, arrays     |TO DO |
+
+<table>
+	<tr><td width = 50%>0.0 Introduction to video series</td><td>TO DO</td></tr>
+	<tr><td width = 50%>0.1 Who am I, who are you?</td><td>TO DO</td></tr>
+	<tr><td width = 50%>0.2 Why learn programming?</td><td>TO DO</td></tr>
+	<tr><td width = 50%>0.3 What is programming?</td><td>TO DO</td></tr>
+</table>
+
 
 ## Drawing
 |Topic                                                                                  |Status |
