@@ -23,7 +23,7 @@ Below is a list of all the videos I intend to make as well as their current stat
 ## Drawing
 
 <table>
-	<tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
+    <tr><th width=33%>Topics</th><th width=33%>Link</th><th width=33%>notes</th></tr>
     <tr><td>1.0 Coordinate system and pixels</td><td>https://vimeo.com/channels/introcompmedia/71517005</td></tr>
     <tr><td>1.1 Getting started in the Processing IDE</td><td>https://vimeo.com/channels/introcompmedia/71517004</td></tr>
     <tr><td>1.2 Color</td><td>https://vimeo.com/channels/introcompmedia/71517006</td><td>forgot noFill(), noStroke()</td>/tr>
