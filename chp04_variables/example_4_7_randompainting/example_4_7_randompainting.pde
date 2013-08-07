@@ -14,9 +14,8 @@ float x;
 float y;
 
 void setup() {
-  size(200,200);
+  size(640,360);
   background(255);
-  smooth();    
 }
 
 void draw() {

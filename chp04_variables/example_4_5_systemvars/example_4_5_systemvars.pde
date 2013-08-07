@@ -4,12 +4,11 @@
 
 // Example 4-5: Using system variables
 void setup() {
-  size(200,200);
-  smooth();
+  size(640,360);
 }
 
 void draw() {
-  background(100);
+  background(50);
   stroke(255);
   // frameCount is used to color a rectangle.
   fill(frameCount / 2);

@@ -5,7 +5,7 @@
 // Example 4-8: Variable Zoog
 
 // NEW FEATURE #1: Zoog will rise from below the screen and fly off into space (above the screen.)
-// NEW FEATURE #2: Zoog’s eyes will be colored randomly as Zoog moves.
+// NEW FEATURE #2: Zoog's eyes will be colored randomly as Zoog moves.
 
 // Declaring Variables.  
 // zoogX and zoogY are for feature #1.  eyeR, eyeG, eyeB are for feature #2.
@@ -17,13 +17,12 @@ float eyeG;
 float eyeB;
 
 void setup() {
-  size(200,200);        // Set the size of the window
+  size(640,360);        // Set the size of the window
   // Feature #1.  zoogX and zoogY are initialized based on the size of the window.  
   // Note we cannot initialize these variables before the size() function is called 
   // since we are using the built-in variables width and height.
   zoogX = width/2;      // Zoog always starts in the middle
   zoogY = height + 100; // Zoog starts below the screen
-  smooth();
 }
 
 void draw() {
