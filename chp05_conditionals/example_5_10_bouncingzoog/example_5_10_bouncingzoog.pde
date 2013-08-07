@@ -15,8 +15,7 @@ float yspeed = 1;
 
 
 void setup() {
-  size(200,200);  
-  smooth();      
+  size(640,360);  
 }
 
 void draw() {
@@ -26,7 +25,7 @@ void draw() {
   y = y + yspeed;
 
   // An IF statement with a logical OR determines if Zoog has reached either the right or left edge of the screen.  
-  // When this is true, we multiply speed by Ð1, reversing ZoogÕs direction!
+  // When this is true, we multiply speed by -1, reversing Zoog's direction!
   // Identical logic is applied to the y direction as well.
   if ((x > width) || (x < 0)) {
     xspeed = xspeed * -1;

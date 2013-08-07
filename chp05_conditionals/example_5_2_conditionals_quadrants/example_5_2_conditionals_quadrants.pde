@@ -10,13 +10,13 @@ float b = 0;
 float g = 0;
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {
   // Color the background and draw lines to divide the window in quadrants.
   background(r,g,b);  
-  stroke(0);
+  stroke(255);
   line(width/2,0,width/2,height);
   line(0,height/2,width,height/2);
   

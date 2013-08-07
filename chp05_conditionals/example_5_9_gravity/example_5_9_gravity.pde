@@ -4,7 +4,7 @@
 
 // Example 5-9: Simple Gravity
 
-float x = 100;   // x location of square
+float x = 320;   // x location of square
 float y = 0;     // y location of square
 
 float speed = 0;   // speed of square
@@ -15,7 +15,7 @@ float speed = 0;   // speed of square
 float gravity = 0.1;  
 
 void setup() {
-  size(200,200);
+  size(640,360);
 
 }
 

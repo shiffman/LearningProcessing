@@ -2,19 +2,19 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 5-8: Square following edge, uses a ÒstateÓ variable
+// Example 5-8: Square following edge, uses a ï¿½stateï¿½ variable
 
 int x = 0;  // x location of square
 int y = 0;  // y location of square
 
 int speed = 5;  // speed of square
 
-// A variable to keep track of the squareÕs "state."  
+// A variable to keep track of the squareï¿½s "state."  
 // Depending on the value of its state, it will either move right, down, left, or up.
 int state = 0;  
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {

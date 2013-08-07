@@ -4,11 +4,10 @@
 
 // Example 5-6: Bouncing Ball
 int x = 0;
-int speed = 1;
+int speed = 2;
 
 void setup() {
-  size(200,200);
-  smooth();
+  size(640,360);
 }
 
 void draw() {

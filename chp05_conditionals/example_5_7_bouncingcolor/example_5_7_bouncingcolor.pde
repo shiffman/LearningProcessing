@@ -9,12 +9,12 @@ float c1 = 0;
 float c2 = 255;    
 
 // Start by incrementing c1.
-float c1dir = 0.1;  
+float c1dir = 0.5;  
 // Start by decrementing c2.
-float c2dir = -0.1; 
+float c2dir = -0.5; 
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {
@@ -22,11 +22,11 @@ void draw() {
   
   // Draw rectangle on left
   fill(c1,0,c2);
-  rect(0,0,100,200);
+  rect(0,0,320,360);
 
   // Draw rectangle of right
   fill(c2,0,c1);
-  rect(100,0,100,200);
+  rect(320,0,320,360);
 
   // Adjust color values
   c1 = c1 + c1dir;

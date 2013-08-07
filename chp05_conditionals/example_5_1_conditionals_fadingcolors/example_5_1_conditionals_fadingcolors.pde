@@ -10,7 +10,7 @@ float g = 0;
 float b = 0;
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {
