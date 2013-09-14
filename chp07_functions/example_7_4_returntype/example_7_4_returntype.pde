@@ -5,7 +5,7 @@
 // Example 7-4: Using a function that returns a value, distance
 
 void setup() {
-  size(200,200);
+  size(640,360);
 }
 
 void draw() {

@@ -10,8 +10,7 @@ int speed = 1;
 
 // Setup does not change
 void setup() {
-  size(200,200);
-  smooth();
+  size(640,360);
 }
 
 void draw() {
@@ -43,5 +42,5 @@ void bounce() {
 void display() {
   stroke(0);
   fill(175);
-  ellipse(x,100,32,32);
+  ellipse(x,height/2,32,32);
 }
