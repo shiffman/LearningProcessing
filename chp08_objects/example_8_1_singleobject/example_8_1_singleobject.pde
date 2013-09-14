@@ -7,7 +7,7 @@
 Car myCar; // Declare car object as a globle variable.
 
 void setup() {
-  size(200,200);
+  size(640,360);
   // Initialize Car object
   myCar = new Car(); // Initialize car object in setup() by calling constructor.
 }
