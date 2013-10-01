@@ -6,6 +6,10 @@
 
 float[] values = new float[100];
 
+for (int i = 0; i < values.length; i++ ) {
+  values[i] = random(0,10);
+}
+
 for (int i = 0; i < values.length; i ++ ) {
   values[i] = 0;
 }  

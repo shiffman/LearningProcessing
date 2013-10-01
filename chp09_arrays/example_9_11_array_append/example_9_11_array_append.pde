@@ -8,11 +8,10 @@ Ball[] balls = new Ball[1]; // We start with an array with just one element.
 float gravity = 0.1;
 
 void setup() {
-  size(200,200);
-  smooth();
+  size(640,360);
   
   // Initialize ball index 0
-  balls[0] = new Ball(50,0,16);
+  balls[0] = new Ball(50,0,24);
 }
 
 void draw() {
@@ -28,7 +27,7 @@ void draw() {
 
 void mousePressed() {
   // A new ball object
-  Ball b = new Ball(mouseX,mouseY,16); // Make a new object at the mouse location.
+  Ball b = new Ball(mouseX,mouseY,24); // Make a new object at the mouse location.
   balls = (Ball[]) append(balls,b);
 
   // Here, the function, append() adds an element to the end of the array. 
