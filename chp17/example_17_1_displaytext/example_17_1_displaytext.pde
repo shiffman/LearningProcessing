@@ -8,10 +8,10 @@
 PFont f;  
 
 void setup() {
-  size(200,200);
+  size(640,480);
   
-  // Step 3: Load Font
-  f = loadFont( "ArialMT-16.vlw" ); 
+  // Step 3: Create Font
+  f = createFont("Arial",16); 
 } 
 
 void draw() {
@@ -20,6 +20,6 @@ void draw() {
   fill(0);        // Step 5: Specify font color
   
   // Step 6: Display Text
-  text ( "Mmmmm ... Strings ..." ,10,100); 
+  text("Mmmmm ... Strings ...",10,height/2); 
   
 }

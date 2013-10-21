@@ -15,8 +15,8 @@ float x; // Horizontal location
 int index = 0;
 
 void setup() {
-  size(400,200);
-  f = createFont( "Arial" ,16,true);
+  size(640,360);
+  f = createFont( "Arial", 16);
   
   // Initialize headline offscreen
   x = width;
@@ -31,7 +31,7 @@ void draw() {
   textAlign (LEFT);
   
   // A specific String from the array is displayed according to the value of the "index" variable.
-  text(headlines[index],x,180); 
+  text(headlines[index],x,height-20); 
   
   // Decrement x
   x = x - 3;

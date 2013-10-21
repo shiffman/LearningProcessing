@@ -12,12 +12,11 @@ PFont f;
 float r = 100;
 
 void setup() {
-  size(320,320);
-  f = createFont("Georgia",40,true);
+  size(640,360);
+  f = createFont("Georgia",40);
   textFont(f);
    // The text must be centered!
   textAlign(CENTER);
-  smooth();
 }
 
 void draw() {

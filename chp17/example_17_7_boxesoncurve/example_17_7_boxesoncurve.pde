@@ -4,8 +4,6 @@
 
 // Example 17-7: Boxes along a curve 
 
-PFont f;
-
 // The radius of a circle
 float r = 100;
 
@@ -14,8 +12,7 @@ float w = 40;
 float h = 40;
 
 void setup() {
-  size(320,320);
-  smooth();
+  size(640,360);
 }
 
 void draw() {

@@ -11,7 +11,7 @@ String message = "click mouse to shake it up";
 Letter[] letters;
 
 void setup() {
-  size(260,200);
+  size(640,360);
   
   // Load the font
   f = createFont("Arial", 20, true);
@@ -21,10 +21,10 @@ void setup() {
   letters = new Letter[message.length()];
   
   // Initialize Letters at the correct x location
-  int x = 16;
+  int x = 216;
   for (int i = 0; i < message.length(); i ++ ) {
     // Letter objects are initialized with their location within the String as well as what character they should display.
-    letters[i] = new Letter(x,100,message.charAt(i)); 
+    letters[i] = new Letter(x,180,message.charAt(i)); 
     x += textWidth(message.charAt(i));
   }
 }

@@ -7,8 +7,8 @@
 PFont f;
 
 void setup() {
-  size(400,200);
-  f = createFont("Arial", 16, true);
+  size(640,360);
+  f = createFont("Arial", 16);
 }
 
 void draw() {
@@ -20,9 +20,9 @@ void draw() {
   
   // textAlign() sets the alignment for displaying text. It takes one argument: CENTER, LEFT, or RIGHT.
   textAlign(CENTER);
-  text("This text is centered." ,width/2,60);
+  text("This text is centered." ,width/2,160);
   textAlign (LEFT) ;
-  text("This text is left aligned." ,width/2,100);
+  text("This text is left aligned." ,width/2,200);
   textAlign(RIGHT);
-  text("This text is right aligned." ,width/2,140);
+  text("This text is right aligned." ,width/2,240);
 }
