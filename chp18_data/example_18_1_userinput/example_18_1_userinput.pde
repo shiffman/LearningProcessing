@@ -13,8 +13,8 @@ String typing = "";
 String saved = "";
 
 void setup() {
-  size(300,200);
-  f = createFont("Arial",16,true);
+  size(640,360);
+  f = createFont("Arial",16);
 }
 
 void draw() {
@@ -26,9 +26,9 @@ void draw() {
   fill(0);
   
   // Display everything
-  text("Click in this applet and type. \nHit return to save what you typed. ", indent, 40);
-  text(typing,indent,90);
-  text(saved,indent,130);
+  text("Click in this window and type. \nHit enter to save. ", indent, 40);
+  text("Input: " + typing,indent,190);
+  text("Saved text: " + saved,indent,230);
 }
 
 void keyPressed() {

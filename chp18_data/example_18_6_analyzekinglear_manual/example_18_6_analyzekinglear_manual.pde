@@ -1,24 +1,20 @@
-import processing.core.*; import java.applet.*; import java.awt.*; import java.awt.image.*; import java.awt.event.*; import java.io.*; import java.net.*; import java.text.*; import java.util.*; import java.util.zip.*; public class example_18_6 extends PApplet {// Learning Processing
+// Learning Processing
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
 // Example 18-6: Analyzing King Lear
 
-PFont f;              // A variable to hold onto a font
 String[] kinglear;    // The array to hold all of the text
 int counter = 1532;   // Where are we in the text (start later b/c Project Gutenberg has licensing info at beginning)
 
 // We will use spaces and punctuation as delimiters
 String delimiters = " ,.?!;:[]";
 
-public void setup() {
-  size(200,200);
-  
-  // Load the font
-  f = loadFont( "Georgia-Bold-16.vlw" );
+void setup() {
+  size(640,360);
   
   // Load King Lear into an array of strings
-  String url = "http://www.learningprocessing.com/proxy.php?url=http://www.gutenberg.org/dirs/etext97/1ws3310.txt";
+  String url = "http://www.gutenberg.org/dirs/etext97/1ws3310.txt";
   String[] rawtext = loadStrings(url);
   
   // Join the big array together as one long string
@@ -30,7 +26,7 @@ public void setup() {
   frameRate(5);
 }
 
-public void draw() {
+void draw() {
   background(255);
   
   // Pick one word from King Lear
@@ -45,15 +41,13 @@ public void draw() {
   }
   
   // Display the text and total times the word appears
-  textFont(f);
   fill(0);
-  text(theword,10,90);
-  text(total,10,110);
+  text(theword,20,190);
+  text(total,20,210);
   stroke(0);
   fill(175);
-  rect(10,50,total/4,20);
+  rect(20,150,total/2,20);
   
   // Move onto the next word
   counter = (counter + 1) % kinglear.length;
 }
-  static public void main(String args[]) {     PApplet.main(new String[] { "example_18_6" });  }}
