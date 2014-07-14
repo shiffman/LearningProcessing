@@ -2,7 +2,8 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 1-4: Try to guess what the instructions would be for the following screenshot.
+// Exercise 1-4: Try to guess what the instructions 
+// would be for the following screenshot.
 
 size(200,200);
 background(255);
