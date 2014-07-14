@@ -1,26 +1,12 @@
-import processing.core.*; 
-import processing.xml.*; 
-
-import java.applet.*; 
-import java.awt.*; 
-import java.awt.image.*; 
-import java.awt.event.*; 
-import java.io.*; 
-import java.net.*; 
-import java.text.*; 
-import java.util.*; 
-import java.util.zip.*; 
-import java.util.regex.*; 
-
-public class exercise_5_6 extends PApplet {
-
 // Learning Processing
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 5-6: Rewrite Example 5-3 so that the squares fade from white to black 
-// when the mouse leaves their area. 
-// Hint: you need four variables, one for each rectangle's color.
+// Exercise 5-6: Rewrite Example 5-3 so that the squares 
+// fade from white to black when the mouse leaves their 
+// area. 
+// Hint: you need four variables, one for each 
+// rectangle's color.
 
 // Four variables, one for each square's brightness level
 float bright0 = 0;
@@ -28,11 +14,11 @@ float bright1 = 0;
 float bright2 = 0;
 float bright3 = 0;
 
-public void setup() { 
+void setup() { 
   size(200,200); 
 } 
 
-public void draw() { 
+void draw() { 
   // Draw the background
   background(0); 
 
@@ -74,10 +60,3 @@ public void draw() {
   line(0,100,200,100); 
 
 } 
-
-
-
-  static public void main(String args[]) {
-    PApplet.main(new String[] { "--present", "--bgcolor=#666666", "--stop-color=#cccccc", "exercise_5_6" });
-  }
-}

@@ -2,7 +2,10 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 5-8: Example 4-3 in the previous chapter moved a circle across the window. Change the sketch so that the circle only starts moving once the mouse has been pressed. Use a boolean variable.
+// Exercise 5-8: Example 4-3 in the previous chapter 
+// moved a circle across the window. Change the sketch 
+// so that the circle only starts moving once the mouse 
+// has been pressed. Use a boolean variable.
 
 // Boolean variable starts as false
 boolean going = false;
@@ -13,7 +16,6 @@ int circleY = 100;
 
 void setup() { 
   size(200,200); 
-  smooth();
 } 
 void draw() { 
   background(255); 
@@ -33,4 +35,3 @@ void draw() {
 void mousePressed() { 
   going = true;
 } 
-

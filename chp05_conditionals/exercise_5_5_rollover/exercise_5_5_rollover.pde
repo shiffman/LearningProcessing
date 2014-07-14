@@ -2,8 +2,9 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 5-5: Write a program that implements a simple rollover. 
-// In other words, if the mouse is over a rectangle, the rectangle changes color. 
+// Exercise 5-5: Write a program that implements a simple 
+// rollover. In other words, if the mouse is over a 
+// rectangle, the rectangle changes color. 
 
 int x = 50;
 int y = 50;

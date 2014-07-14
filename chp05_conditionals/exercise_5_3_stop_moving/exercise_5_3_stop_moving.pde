@@ -2,7 +2,12 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 5-3: Move a rectangle across a window by incrementing a variable. Start the shape at x coordinate 0 and use an if statement to have it stop at coordinate 100. Rewrite the sketch to use constrain( ) instead of the if statement. Fill in the missing code.
+// Exercise 5-3: Move a rectangle across a window by 
+// incrementing a variable. Start the shape at x 
+// coordinate 0 and use an if statement to have it stop 
+// at coordinate 100. Rewrite the sketch to use 
+// constrain() instead of the if statement. 
+// Fill in the missing code.
 
 // Rectangle starts at location x
 float x = 0;
