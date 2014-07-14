@@ -1,20 +1,15 @@
-import processing.core.*; import java.applet.*; import java.awt.*; import java.awt.image.*; import java.awt.event.*; import java.io.*; import java.net.*; import java.text.*; import java.util.*; import java.util.zip.*; public class exercise_3_4 extends PApplet {// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
-
-// Exercise 3-4: Complete Zoog so that the rest of its body moves with the mouse.
-
 // Learning Processing
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 3-3: Zoog as dynamic sketch with variation
-public void setup() {
+// Exercise 3-4: Complete Zoog so that the 
+// rest of its body moves with the mouse.
+
+void setup() {
   size(200,200);  // Set the size of the window
-  smooth();
 }
 
-public void draw() {
+void draw() {
   background(255);  // Draw a white background 
   
   // Set ellipses and rects to CENTER mode
@@ -43,5 +38,3 @@ public void draw() {
   line(mouseX-10,mouseY+50,mouseX-20,mouseY+60);
   line(mouseX+10,mouseY+50,mouseX+20,mouseY+60);
 }
-
-  static public void main(String args[]) {     PApplet.main(new String[] { "exercise_3_4" });  }}
