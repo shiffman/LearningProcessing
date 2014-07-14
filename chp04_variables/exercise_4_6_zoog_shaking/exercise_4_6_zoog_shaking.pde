@@ -2,8 +2,10 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 4-6: Revise Example 4-8 so that Zoog shakes left and right as Zoog moves upward. 
-// Hint: this requires the use of random() in combination with zoogX.
+// Exercise 4-6: Revise Example 4-8 so that Zoog shakes 
+// left and right as Zoog moves upward. 
+// Hint: this requires the use of random() in combination 
+// with zoogX.
 // zoogX = ____________________________;
 
 // Declaring Variables.  
@@ -66,6 +68,3 @@ void draw() {
   zoogX = zoogX + random(-5,5);
 
 }
-
-
-
