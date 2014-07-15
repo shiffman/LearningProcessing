@@ -28,8 +28,8 @@ void draw() {
   float b = blue(img.pixels[loc]);
   noStroke();
   
-  // Draw an ellipse at that location with that color
+  // Back to shapes! Instead of setting a pixel, we use the color 
+  // from a pixel to draw a circle.
   fill(r,g,b,100);
-  // Back to shapes! Instead of setting a pixel, we use the color from a pixel to draw a circle.
   ellipse(x,y,pointillize,pointillize); 
 }
