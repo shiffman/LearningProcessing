@@ -2,7 +2,8 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 8-5: Rewrite the gravity example from Chapter 5 using objects with a Ball class. 
+// Exercise 8-5: Rewrite the gravity example from 
+// Chapter 5 using objects with a Ball class. 
 // Include two instances of a Ball object.
 
 // Two ball objects
@@ -33,4 +34,3 @@ void draw() {
   ball2.update();
 
 } 
-
