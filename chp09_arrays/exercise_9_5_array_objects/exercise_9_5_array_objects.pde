@@ -2,7 +2,9 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 9-5: Declare an array of three Zoog objects. Initialize each spot in the array with a Zoog object via its index.
+// Exercise 9-5: Declare an array of three Zoog objects. 
+// Initialize each spot in the array with a Zoog object 
+// via its index.
 
 /*
 Zoog__ zoogs = new _______ [_______ ];
