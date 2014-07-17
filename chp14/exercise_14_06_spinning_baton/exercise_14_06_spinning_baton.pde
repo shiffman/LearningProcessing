@@ -8,8 +8,7 @@
 float angle = 0.0;
 
 void setup() {
-  size(200,200);
-  smooth(); 
+  size(200, 200);
 }
 
 void draw() {
@@ -17,11 +16,11 @@ void draw() {
   fill(175);
   stroke(0);
 
-  translate(width/2,height/2);
+  translate(width/2, height/2);
   rotate(angle);
-  line(-75,0,75,0);
-  ellipse(-75,0,8,8);
-  ellipse( 75,0,8,8);
+  line(-75, 0, 75, 0);
+  ellipse(-75, 0, 8, 8);
+  ellipse( 75, 0, 8, 8);
 
   angle += 0.05;
 }

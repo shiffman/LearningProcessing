@@ -21,8 +21,8 @@ class Planet {
     theta = 0;
     orbitspeed = random(0.01,0.03);
     
-    // create the Moon 10 pixels from the planet with a diameter of 5
-    moon = new Moon(12,5);
+    // create the Moon 24 pixels from the planet with a diameter of 5
+    moon = new Moon(24,8);
   }
   
   void update() {
