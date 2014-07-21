@@ -13,20 +13,21 @@ Capture video;
 color trackColor; 
 
 void setup() {
-  size(320,240);
-  video = new Capture(this,width,height);
+  size(320, 240);
+  video = new Capture(this, width, height);
   video.start();
   // Start off tracking for red
-  trackColor = color(255,0,0);
+  trackColor = color(255, 0, 0);
+}
+
+void captureEvent(Capture video) {
+  // Read image from the camera
+  video.read();
 }
 
 void draw() {
-  // Capture and display the video
-  if (video.available()) {
-    video.read();
-  }
   video.loadPixels();
-  image(video,0,0);
+  image(video, 0, 0);
 
   // Before we begin searching, the "world record" for closest color is set to a high number that is easy for the first pixel to beat.
   float worldRecord = 500; 
@@ -49,7 +50,7 @@ void draw() {
       float b2 = blue(trackColor);
 
       // Using euclidean distance to compare colors
-      float d = dist(r1,g1,b1,r2,g2,b2); // We are using the dist( ) function to compare the current color with the color we are tracking.
+      float d = dist(r1, g1, b1, r2, g2, b2); // We are using the dist( ) function to compare the current color with the color we are tracking.
 
       // If current color is more similar to tracked color than
       // closest color, save current location and current difference
@@ -68,7 +69,7 @@ void draw() {
     fill(trackColor);
     strokeWeight(4.0);
     stroke(0);
-    ellipse(closestX,closestY,16,16);
+    ellipse(closestX, closestY, 16, 16);
   }
 }
 
@@ -77,3 +78,4 @@ void mousePressed() {
   int loc = mouseX + mouseY*video.width;
   trackColor = video.pixels[loc];
 }
+

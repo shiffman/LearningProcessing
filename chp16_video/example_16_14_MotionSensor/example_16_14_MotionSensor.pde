@@ -24,7 +24,7 @@ void setup() {
   prevFrame = createImage(video.width, video.height, RGB);
 }
 
-// New frame avaialble from camera
+// New frame available from camera
 void captureEvent(Capture video) {
   // Save previous frame for motion detection!!
   prevFrame.copy(video, 0, 0, video.width, video.height, 0, 0, video.width, video.height);
@@ -71,9 +71,8 @@ void draw() {
   float avgMotion = totalMotion / video.pixels.length; 
 
   // Draw a circle based on average motion
-  smooth();
   noStroke();
   fill(0);
-  float r = avgMotion*2;
+  float r = avgMotion * 2;
   ellipse(width/2, height/2, r, r);
 }
