@@ -1,34 +1,24 @@
-import processing.core.*; 
-import processing.xml.*; 
-
-import java.applet.*; 
-import java.awt.*; 
-import java.awt.image.*; 
-import java.awt.event.*; 
-import java.io.*; 
-import java.net.*; 
-import java.text.*; 
-import java.util.*; 
-import java.util.zip.*; 
-import java.util.regex.*; 
-
-public class exercise_15_12 extends PApplet {
-
 // Learning Processing
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
+// Exercise 15-12: Create a sketch that uses shapes to 
+// display a pattern that covers an entire window. Load 
+// an image and color the shapes according to the pixels 
+// of that image. The following image, for example, uses 
+// triangles.
+
+
 // Image variable
 PImage img;
 
-public void setup() {
+void setup() {
   size(200, 200);
   // Load the file from the data folder
-  img = loadImage("sunflower.jpg");  
-  smooth();
+  img = loadImage("sunflower.jpg");
 }
 
-public void draw() {
+void draw() {
   background(255);
   // Call loadPixels before we deal with pixels
   loadPixels();  
@@ -42,13 +32,9 @@ public void draw() {
       stroke(img.pixels[loc]);
       fill(img.pixels[loc]);
       // Draw a triangle pointing up or pointing down
-      if (x %10 == 0) triangle(x-5,y,x,y+10,x+5,y);
-      else triangle(x-5,y+10,x,y,x+5,y+10);
+      if (x %10 == 0) triangle(x-5, y, x, y+10, x+5, y);
+      else triangle(x-5, y+10, x, y, x+5, y+10);
     }
   }
 }
 
-  static public void main(String args[]) {
-    PApplet.main(new String[] { "--bgcolor=#FFFFFF", "exercise_15_12" });
-  }
-}

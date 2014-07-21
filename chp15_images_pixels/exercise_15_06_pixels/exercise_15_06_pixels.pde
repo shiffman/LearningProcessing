@@ -2,7 +2,8 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 15-6: Complete the code to match the corresponding screenshots.
+// Exercise 15-6: Complete the code to match the 
+// corresponding screenshots.
 
 /*
 size(255,255);

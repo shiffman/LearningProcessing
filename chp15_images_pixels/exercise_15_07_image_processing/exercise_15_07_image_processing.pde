@@ -2,7 +2,8 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 15-7: Using Example 15-7, change the values of r, g, and b before displaying them.
+// Exercise 15-7: Using Example 15-7, change the values 
+// of r, g, and b before displaying them.
 
 /*
 // Example 15-7: Displaying the pixels of an image
