@@ -2,7 +2,10 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 16-12: Simple background removal
+// Exercise 16-6: Instead of replacing the background with green pixels, replace it with another 
+// image. What values work well for threshold and what values do not work at all? Try 
+// controlling the threshold variable with the mouse.   
+
 
 // Click the mouse to memorize a current background image
 import processing.video.*;
@@ -13,23 +16,31 @@ Capture video;
 // Saved background
 PImage backgroundImage;
 
+PImage backgroundReplace;
+
 // How different must a pixel be to be a foreground pixel
 float threshold = 20;
 
 void setup() {
   size(320, 240);
-  video = new Capture(this, width, height);
+  video = new Capture(this, width, height, 30);
   video.start();
+
   // Create an empty image the same size as the video
   backgroundImage = createImage(video.width, video.height, RGB);
+  backgroundReplace = loadImage("beach.jpg");
 }
 
+// New frame available from camera
 void captureEvent(Capture video) {
-  // Read image from the camera
   video.read();
 }
 
+
 void draw() {
+  // Map the threshold to mouse location
+  threshold = map(mouseX, 0, width, 5, 50);
+
   // We are looking at the video's pixels, the memorized backgroundImage's pixels, as well as accessing the display pixels. 
   // So we must loadPixels() for all!
   loadPixels();
@@ -59,8 +70,8 @@ void draw() {
         // If so, display the foreground color
         pixels[loc] = fgColor;
       } else {
-        // If not, display green
-        pixels[loc] = color(0, 255, 0); // We could choose to replace the background pixels with something other than the color green!
+        // If not, display the beach scene
+        pixels[loc] = backgroundReplace.pixels[loc];
       }
     }
   }
@@ -71,8 +82,8 @@ void mousePressed() {
   // Copying the current frame of video into the backgroundImage object
   // Note copy takes 5 arguments:
   // The source image
-  // x, y, width, and height of region to be copied from the source
-  // x, y, width, and height of copy destination
+  // x,y,width, and height of region to be copied from the source
+  // x,y,width, and height of copy destination
   backgroundImage.copy(video, 0, 0, video.width, video.height, 0, 0, video.width, video.height);
   backgroundImage.updatePixels();
 }
