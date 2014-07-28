@@ -1,5 +1,5 @@
 /**
- * Loading XML Data
+ * Loading JSON Data
  * by Daniel Shiffman.  
  * 
  * This example demonstrates how to use loadJSON()
@@ -32,7 +32,6 @@
 
 // An Array of Bubble objects
 Bubble[] bubbles;
-// A JSON object
 JSONObject json;
 
 void setup() {
@@ -54,7 +53,6 @@ void draw() {
 }
  void loadData() {
   // Load JSON file
-  // Temporary full path until path problem resolved.
   json = loadJSONObject("data.json");
 
   JSONArray bubbleData = json.getJSONArray("bubbles");
@@ -108,4 +106,3 @@ void draw() {
   saveJSONObject(json,"data/data.json");
   loadData();
 }
-
