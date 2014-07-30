@@ -6,7 +6,7 @@ import processing.sound.*;
 
 // Example 20-2: Doorbell with Sonia
 
-// A sample object (for a sound)
+// A sound file object
 SoundFile dingdong;
 
 // A doorbell object (that will trigger the sound)
@@ -15,7 +15,7 @@ Doorbell doorbell;
 void setup() {
   size(200, 200);
 
-  // Create a new sample object.
+  // Load the sound file
   dingdong = new SoundFile(this, "dingdong.wav");
 
   // Create a new doorbell

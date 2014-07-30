@@ -6,13 +6,13 @@
 
 import processing.sound.*;
 
-// A Sample object (for a sound)
+// A sound file object
 SoundFile song;
 
 void setup() {
   size(200, 200);
 
-  // Create a new sample object.
+  // Load a sound file
   song = new SoundFile(this, "dragon.wav");
 
   // Loop the sound forever
@@ -21,37 +21,22 @@ void setup() {
 }
 
 void draw() {
-  //if (tone.isPlaying()) {
   background(255);
-  //} else {
-  //background(100);
-  //}
 
   // Set the volume to a range between 0 and 1.0
-  song.amp(map(mouseX, 0, width, 0, 1));
+  float volume = map(mouseX, 0, width, 0, 1);
+  song.amp(volume);
 
   // Set the rate to a range between 0.1 and 4
-  // Changing the rate alters the pitch
-  song.rate(map(mouseY, 0, height, 0, 2));
+  // Changing the rate alters the pitchf
+  float speed = map(mouseY, 0, height, 0, 2)
+  song.rate(speed);
 
-  // Draw some rectangles to show what is going on
+  // Draw some circles to show what is going on
   stroke(0);
   fill(51, 100);
   ellipse(mouseX, 100, 48, 48);
   stroke(0);
   fill(51, 100);
   ellipse(100, mouseY, 48, 48);
-}
-
-// Pressing the mouse stops and starts the sound
-void mousePressed() {
-  //if (tone.isPlaying()) {
-  song.stop(); //   The sound can be stopped with the function stop().
-  //} else {
-  //tone.loop();
-  //}
-}
-
-void keyPressed() {
-  song.loop();
 }
