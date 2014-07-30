@@ -10,7 +10,7 @@ void setup() {
 
 void draw() {
   background(255);
-  // Map the ball's x location to a panning value (between -1.0 and 1.0)
+  // Map mouseX  to a panning value (between -1.0 and 1.0)
   float panning = map(mouseX, 0., width, -1.0, 1.0);
   soundFile.pan(panning);
   
