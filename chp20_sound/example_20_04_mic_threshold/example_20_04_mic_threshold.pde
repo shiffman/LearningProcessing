@@ -32,17 +32,23 @@ void draw() {
 
   // If the volume is greater than 0.5 a rectangle is drawn at a random location in the window. 
   // The louder the volume, the larger the rectangle.
-  if (vol > 0.5) {
+  float threshold = 0.1;
+  if (vol > threshold) {
     stroke(0);
     fill(0, 100);
-    rect(random(width), random(height), vol*20, vol*20);
+    rect(random(40, width), random(height), 20, 20);
   }
 
-  // Graph the overall volume
-  // First draw a background strip
+  // Graph the overall volume and show threshold
+  float y = map(vol, 0, 1, height, 0);
+  float ythreshold = map(threshold, 0, 1, height, 0);
+
+  noStroke();
   fill(175);
   rect(0, 0, 20, height);
   // Then draw a rectangle size according to volume
   fill(0);
-  rect(0, height-vol*height/2, 20, vol*height/2);
+  rect(0, y, 20, y);
+  stroke(0);
+  line(0, ythreshold, 19, ythreshold);
 }

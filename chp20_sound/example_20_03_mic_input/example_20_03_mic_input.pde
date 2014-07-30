@@ -17,6 +17,7 @@ void setup() {
   input = new AudioIn(this, 0);
 
   // start the Audio Input
+  // will be input.start() eventually
   input.play();
 
   // create a new Amplitude analyzer
@@ -35,5 +36,5 @@ void draw() {
   stroke(0);
 
   // Draw an ellipse with size based on volume
-  ellipse(width/2, height/2, level*200, level*200);
+  ellipse(width/2, height/2, 10+level*200, 10+level*200);
 }

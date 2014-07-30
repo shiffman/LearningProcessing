@@ -19,7 +19,7 @@ void setup() {
   dingdong = new SoundFile(this, "dingdong.wav");
 
   // Create a new doorbell
-  doorbell = new Doorbell(150, 100, 32);
+  doorbell = new Doorbell(width/2, height/2, 64);
 }
 
 void draw() {

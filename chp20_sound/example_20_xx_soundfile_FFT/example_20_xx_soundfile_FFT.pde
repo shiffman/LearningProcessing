@@ -9,8 +9,12 @@ import processing.sound.*;
 // A Sample object (for a sound)
 SoundFile song;
 
+FFT fft;
+int bands=512;
+float[] spectrum = new float[bands];
+
 void setup() {
-  size(200, 200);
+  size(640, 360);
 
   // Create a new sample object.
   song = new SoundFile(this, "dragon.wav");
@@ -18,6 +22,10 @@ void setup() {
   // Loop the sound forever
   // (well, at least until stop() is called)
   song.loop();
+
+  // Create and patch the rms tracker
+  fft = new FFT(this);
+  fft.input(song, bands);
 }
 
 void draw() {
@@ -26,21 +34,23 @@ void draw() {
   //} else {
   //background(100);
   //}
-
-  // Set the volume to a range between 0 and 1.0
-  song.amp(map(mouseX, 0, width, 0, 1));
-
   // Set the rate to a range between 0.1 and 4
   // Changing the rate alters the pitch
-  song.rate(map(mouseY, 0, height, 0, 2));
+  song.rate(map(mouseX, 0, width, 0, 2));
 
   // Draw some rectangles to show what is going on
-  stroke(0);
-  fill(51, 100);
-  ellipse(mouseX, 100, 48, 48);
-  stroke(0);
-  fill(51, 100);
-  ellipse(100, mouseY, 48, 48);
+  stroke(51);
+  fill(51);
+  ellipse(mouseX, height/2, 64, 64);
+
+  fft.analyze(spectrum);
+
+  for (int i = 0; i < bands; i++) {
+    // The result of the FFT is normalized
+    // draw the line for frequency band i scaling it up by 5 to get more amplitude.
+    line( i, height, i, height - spectrum[i]*height*5 );
+  }
+
 }
 
 // Pressing the mouse stops and starts the sound

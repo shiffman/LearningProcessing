@@ -35,6 +35,7 @@ class Doorbell {
       fill(175);
     }
     stroke(0);
+    strokeWeight(4);
     ellipse(x,y,r,r);
   }
 }
