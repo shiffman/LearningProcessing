@@ -7,7 +7,7 @@
 import processing.sound.*;
 
 AudioIn input;
-Amplitude rms;
+Amplitude analyzer;
 
 void setup() {
   size(200, 200);
@@ -21,20 +21,20 @@ void setup() {
   input.play();
 
   // create a new Amplitude analyzer
-  rms = new Amplitude(this);
+  analyzer = new Amplitude(this);
 
   // Patch the input to an volume analyzer
-  rms.input(input);
+  analyzer.input(input);
 }
 
 void draw() {
   background(255);
 
   // Get the overall volume (between 0 and 1.0)
-  float level = rms.analyze();
+  float vol = analyzer.analyze();
   fill(127);
   stroke(0);
 
   // Draw an ellipse with size based on volume
-  ellipse(width/2, height/2, 10+level*200, 10+level*200);
+  ellipse(width/2, height/2, 10+vol*200, 10+vol*200);
 }
