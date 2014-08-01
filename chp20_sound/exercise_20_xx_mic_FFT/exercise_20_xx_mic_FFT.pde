@@ -12,7 +12,7 @@ int bands=512;
 float[] spectrum = new float[bands];
 
 void setup() {
-  size(200, 200);
+  size(512, 360);
 
   // Start listening to the microphone
   // Create an Audio input and grab the 1st channel
@@ -32,9 +32,10 @@ void draw() {
 
   fft.analyze(spectrum);
 
-  for (int i = 0; i < bands; i++) {
-    // The result of the FFT is normalized
-    // draw the line for frequency band i scaling it up by 5 to get more amplitude.
-    line( i, height, i, height - spectrum[i]*height*5 );
+  for (int i = 0; i < spectrum.length; i++) {
+    stroke(0);
+    // The result of the FFT is normalized to a range between 0 and 1
+    float y = map(spectrum[i], 0, 1, height * 0.75, 0);
+    line(i, height * 0.75, i, y);
   }
 }

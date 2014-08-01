@@ -6,7 +6,7 @@
 import processing.sound.*;
 
 AudioIn input;
-Amplitude rms;
+Amplitude analyzer;
 
 void setup() {
   size(200, 200);
@@ -20,27 +20,27 @@ void setup() {
   input.play();
 
   // create a new Amplitude analyzer
-  rms = new Amplitude(this);
+  analyzer = new Amplitude(this);
 
   // Patch the input to an volume analyzer
-  rms.input(input);
+  analyzer.input(input);
 }
 
 void draw() {
   // Get the overall volume (between 0 and 1.0)
-  float vol = rms.analyze();
+  float volume = analyzer.analyze();
 
   // If the volume is greater than 0.5 a rectangle is drawn at a random location in the window. 
   // The louder the volume, the larger the rectangle.
   float threshold = 0.1;
-  if (vol > threshold) {
+  if (volume > threshold) {
     stroke(0);
     fill(0, 100);
     rect(random(40, width), random(height), 20, 20);
   }
 
   // Graph the overall volume and show threshold
-  float y = map(vol, 0, 1, height, 0);
+  float y = map(volume, 0, 1, height, 0);
   float ythreshold = map(threshold, 0, 1, height, 0);
 
   noStroke();
