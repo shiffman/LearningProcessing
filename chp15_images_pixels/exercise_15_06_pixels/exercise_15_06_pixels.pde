@@ -44,6 +44,7 @@ for (int x = 0; x < width; x ++ ) {
 updatePixels();
 
 // Solution #2
+size(255, 255);
 loadPixels();
 for (int x = 0; x < width; x ++ ) {
   for (int y = 0; y < height; y ++ ) {
