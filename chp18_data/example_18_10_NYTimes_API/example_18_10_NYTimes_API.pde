@@ -9,7 +9,7 @@ void setup() {
   size(200, 200);
 
   // The URL for the JSON data (replace "imperial" with "metric" for celsius)
-  String apiKey = "40e2ea0b3ca44563f9c62aeded0431dc:18:51513116";
+  String apiKey = "your key here";
   String url = "http://api.nytimes.com/svc/search/v2/articlesearch.json";
   String query = "?q=processing&sort=newest";
 

@@ -30,3 +30,30 @@ for (int x = 0; x < width; x ++ ) {
   }
   __________________;
   */
+  
+// Solution #1
+size(255, 255);
+loadPixels();
+for (int x = 0; x < width; x ++ ) {
+  for (int y = 0; y < height; y ++ ) {
+    int loc = x + y * width;
+    float distance = dist(width/2, height/2, x, y);
+    pixels[loc] = color(distance);
+  }
+}
+updatePixels();
+
+// Solution #2
+size(255, 255);
+loadPixels();
+for (int x = 0; x < width; x ++ ) {
+  for (int y = 0; y < height; y ++ ) {
+    int loc = x + y * width;
+    if (x > width/2) {
+      pixels[loc] = color(y);
+    } else {
+      pixels[loc] = color(255 - y);
+    }
+  }
+}
+updatePixels();
