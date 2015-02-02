@@ -4,8 +4,7 @@
 
 // Example 21-4: PDF and openGL
 
-// Using OPENGL
-import processing.opengl.*;
+// PDF Library
 import processing.pdf.*;
 
 // Cube rotation
@@ -17,8 +16,7 @@ boolean recordPDF = false;
 
 void setup() {
   // OPENGL or P3D mode requires the use of beginRaw() and endRaw() instead of beginRecord() and endRecord().
-  size(400, 400, OPENGL); 
-  smooth();
+  size(400, 400, P3D); 
 }
 
 void draw() {
