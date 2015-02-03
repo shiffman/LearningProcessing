@@ -7,7 +7,7 @@
 ArrayList<Particle> particles;
 
 void setup() {
-  size(640,360);
+  size(640, 360);
   particles = new ArrayList<Particle>();
 }
 
@@ -26,6 +26,6 @@ void draw() {
 
   // If the ArrayList has more than 100 elements in it, we delete the first element, using remove().
   if (particles.size() > 100) {
-    particles.remove(0); 
+    particles.remove(0);
   }
 }
