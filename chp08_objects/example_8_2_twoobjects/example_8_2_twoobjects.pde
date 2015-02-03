@@ -8,9 +8,9 @@ Car myCar1;
 Car myCar2; // Two objects!
 
 void setup() {
-  size(640,360);
-  myCar1 = new Car(color(51),0,100,2); // Parameters go inside the parentheses when the object is constructed.
-  myCar2 = new Car(color(151),0,300,1);
+  size(640, 360);
+  myCar1 = new Car(color(51), 0, 100, 2); // Parameters go inside the parentheses when the object is constructed.
+  myCar2 = new Car(color(151), 0, 300, 1);
 }
 
 void draw() {
@@ -38,7 +38,7 @@ class Car { // Even though there are multiple objects, we still only need one cl
     stroke(0);
     fill(c);
     rectMode(CENTER);
-    rect(xpos,ypos,20,10);
+    rect(xpos, ypos, 20, 10);
   }
 
   void move() {
