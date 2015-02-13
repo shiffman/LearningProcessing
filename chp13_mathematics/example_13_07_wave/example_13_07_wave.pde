@@ -23,11 +23,10 @@ void draw() {
   // A for loop is used to draw all the points along a sine wave (scaled to the pixel dimension of the window).
   for (int x = 0; x <= width; x += 10) {
     // Calculate y value based off of sine function
-    float y = sin(angle) * height/2;
+    float y = map(sin(angle), -1, 1, 0, height);
     // Draw an ellipse
-    ellipse(x, y + height/2, 16, 16);
+    ellipse(x, y, 16, 16);
     // Increment angle
     angle += 0.1;
   }
 }
-

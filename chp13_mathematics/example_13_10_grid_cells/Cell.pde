@@ -24,8 +24,8 @@ class Cell {
   void display() {
     stroke(255);
     // Color calculated using sine wave
-    fill(127 + 127 * sin(angle));
+    float bright = map(sin(angle), -1, 1, 0, 255);
+    fill(bright);
     rect(x, y, w, h);
   }
 }
-
