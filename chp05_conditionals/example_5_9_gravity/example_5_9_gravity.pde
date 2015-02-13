@@ -15,8 +15,7 @@ float speed = 0;   // speed of square
 float gravity = 0.1;  
 
 void setup() {
-  size(640,360);
-
+  size(640, 360);
 }
 
 void draw() {
@@ -26,27 +25,20 @@ void draw() {
   fill(175);
   stroke(0);
   rectMode(CENTER);
-  rect(x,y,10,10);
-  
+  rect(x, y, 10, 10);
+
   // Add speed to location.
   y = y + speed;
-  
+
   // Add gravity to speed.
   speed = speed + gravity;
-  
+
   // If square reaches the bottom
   // Reverse speed
   if (y > height) {
     // Multiplying by -0.95 instead of -1 slows the square down each time it bounces (by decreasing speed).  
     // This is known as a "dampening" effect and is a more realistic simulation of the real world (without it, a ball would bounce forever).
-    speed = speed * -0.95;  
+    speed = speed * -0.95;
+    y = height;
   }
 }
-
-
-
-
-
-
-
-
