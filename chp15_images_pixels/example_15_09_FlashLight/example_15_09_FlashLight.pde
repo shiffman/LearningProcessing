@@ -13,6 +13,7 @@ void setup() {
 
 void draw() {
   loadPixels();
+  img.loadPixels();
 
   // We must also call loadPixels() on the PImage since we are going to read its pixels.  img.loadPixels(); 
   for (int x = 0; x < img.width; x++ ) {

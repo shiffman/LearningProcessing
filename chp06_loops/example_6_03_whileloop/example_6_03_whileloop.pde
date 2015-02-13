@@ -4,7 +4,7 @@
 
 // Example 6-3: While loop
 
-size(640,360);
+size(200, 200);
 background(255);
 
 int y = 80;       // Vertical location of each line
@@ -18,6 +18,7 @@ stroke(0);
 
 // Draw each leg inside a while loop.
 while (x <= endLegs) { 
-  line (x,y,x,y + len);
+  line (x, y, x, y + len);
   x = x + spacing;
 }
+
