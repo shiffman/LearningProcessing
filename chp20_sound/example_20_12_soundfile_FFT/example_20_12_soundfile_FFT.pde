@@ -15,7 +15,7 @@ void setup() {
   size(512, 360);
 
   // Create a new sample object.
-  song = new SoundFile(this, "dragon.wav");
+  song = new SoundFile(this, "beat.mp3");
 
   // Loop the sound forever
   // (well, at least until stop() is called)
@@ -33,7 +33,7 @@ void draw() {
 
   for (int i = 0; i < spectrum.length; i++) {
     stroke(0);
-    // The result of the FFT is normalized to a range between 0 and 1
+    // The FFT range is between 0 and 1, we map it to pixels
     float y = map(spectrum[i], 0, 1, height * 0.75, 0);
     line(i, height * 0.75, i, y);
   }

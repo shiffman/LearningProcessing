@@ -13,7 +13,7 @@ void setup() {
   size(200, 200);
 
   // Load a sound file
-  song = new SoundFile(this, "dragon.wav");
+  song = new SoundFile(this, "beat.mp3");
 
   // Loop the sound forever
   // (well, at least until stop() is called)
@@ -29,7 +29,7 @@ void draw() {
 
   // Set the rate to a range between 0.1 and 4
   // Changing the rate alters the pitchf
-  float speed = map(mouseY, 0, height, 0, 2)
+  float speed = map(mouseY, 0, height, 0, 2);
   song.rate(speed);
 
   // Draw some circles to show what is going on

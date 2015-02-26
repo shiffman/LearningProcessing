@@ -13,7 +13,7 @@ float[] spectrum = new float[bands];
 void setup() {
   size(512, 360);
 
-  song = new SoundFile(this, "dragon.wav");
+  song = new SoundFile(this, "beat.mp3");
   song.loop();
 
   fft = new FFT(this);

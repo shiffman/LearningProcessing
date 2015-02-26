@@ -14,7 +14,7 @@ Amplitude analyzer;
 
 void setup() {
   size(640, 360);
-  song = new SoundFile(this, "dragon.wav");
+  song = new SoundFile(this, "beat.mp3");
   song.loop();
 
   // create a new Amplitude analyzer

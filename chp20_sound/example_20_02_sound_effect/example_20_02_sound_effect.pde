@@ -16,7 +16,7 @@ void setup() {
   size(200, 200);
 
   // Load the sound file
-  dingdong = new SoundFile(this, "dingdong.wav");
+  dingdong = new SoundFile(this, "doorbell.mp3");
 
   // Create a new doorbell
   doorbell = new Doorbell(width/2, height/2, 64);

@@ -11,7 +11,7 @@ SoundFile song;
 
 void setup() {
   size(640, 360);
-  song = new SoundFile(this, "dragon.wav");
+  song = new SoundFile(this, "beat.mp3");
   song.play();
 }
 
