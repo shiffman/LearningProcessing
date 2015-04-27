@@ -9,7 +9,6 @@ SoundFile song;
 
 FFT fft;
 int bands = 512;
-float[] spectrum = new float[bands];
 
 void setup() {
   size(512, 360);
@@ -22,19 +21,19 @@ void setup() {
   song.loop();
 
   // Create and patch the FFT analyzer
-  fft = new FFT(this);
-  fft.input(song, bands);
+  fft = new FFT(this, bands);
+  fft.input(song);
 }
 
 void draw() {
   background(255);
 
-  fft.analyze(spectrum);
+  fft.analyze();
 
-  for (int i = 0; i < spectrum.length; i++) {
+  for (int i = 0; i < fft.size(); i++) {
     stroke(0);
     // The FFT range is between 0 and 1, we map it to pixels
-    float y = map(spectrum[i], 0, 1, height * 0.75, 0);
+    float y = map(fft.spectrum[i], 0, 1, height * 0.75, 0);
     line(i, height * 0.75, i, y);
   }
 }

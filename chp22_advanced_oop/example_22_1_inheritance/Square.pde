@@ -10,7 +10,6 @@ class Square extends Shape {
 
   Square(float x_, float y_, float r_) {
     // If the parent constructor takes arguments then super() needs to pass in those arguments.
-    super(x_,y_,r_); 
   }
 
   // Inherits jiggle() from parent

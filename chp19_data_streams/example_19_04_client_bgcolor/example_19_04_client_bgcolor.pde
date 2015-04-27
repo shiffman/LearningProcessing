@@ -17,13 +17,12 @@ void setup() {
   client = new Client(this, "127.0.0.1", 5204);
 }
 
-void draw() {
-
+void clientEvent(Client client) {
   // Read data
-  if (client.available() > 0) {
-    data = client.read();
-  }
+  data = client.read();
+}
 
+void draw() {
   // The incoming data is used to color the background.
   background(data);
 }

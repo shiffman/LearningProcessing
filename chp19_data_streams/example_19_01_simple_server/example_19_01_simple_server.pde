@@ -35,7 +35,7 @@ void draw() {
   // If there is no client, it will be"null"
   Client client = server.available();
   // We should only proceed if the client is not null
-  if (client!= null) {
+  if (client != null) {
     
     // Receive the message
     // The message is read using readString().

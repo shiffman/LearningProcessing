@@ -35,7 +35,7 @@ void draw() {
   // We should only proceed if the client is not null
   if (client != null) {
     // Receive the message
-    incomingMessage = client.readStringUntil('*'); 
+    incomingMessage = client.readStringUntil('\n'); 
     // Print to Processing message window
     println( "Client says:" + incomingMessage);
     // Write message back out (note this goes to ALL clients)

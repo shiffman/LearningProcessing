@@ -39,12 +39,17 @@ void draw() {
   // Display text typed by user
   fill(0);
   text(typing, width/2, 80);
+}
 
-  // If there is information available to read
-  // (we know there is a message from the Server when there are greater than zero bytes available.)
-  if (client.available() > 0) { 
-    // Read it as a String
-    messageFromServer = client.readString();
+// If there is information available to read
+// this event will be triggered
+void clientEvent(Client client) {
+  String msg = client.readStringUntil('\n');
+  // The value of msg will be null until the 
+  // end of the String is reached
+  if (msg != null) {
+    // Store in global variable to display on screen
+    messageFromServer = msg;
     // Set brightness to 0
     newMessageColor = 0;
   }

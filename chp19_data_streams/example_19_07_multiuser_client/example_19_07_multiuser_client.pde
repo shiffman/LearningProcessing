@@ -17,17 +17,17 @@ void setup() {
 }
 
 void draw() {
+}
 
-  // If there is information available to read from the Server
-  if (client.available() > 0) {
-    // Read message as a String, all messages end with an asterisk
-    String in = client.readStringUntil('*');
-
+// If there is information available to read from the Server
+void clientEvent(Client client) {
+  // Read message as a String, all messages end with a newline character
+  String in = client.readStringUntil('\n');
+  if (in != null) {
     // Print message received
     println( "Receiving:" + in);
-
     // The client reads messages from the Server and parses them with splitTokens() according to our protocol.    
-    int[] vals = int(splitTokens(in, ",*" )); 
+    int[] vals = int(splitTokens(in, ",\n")); 
 
     // Render an ellipse based on those values
     fill(0, 100);
@@ -38,8 +38,8 @@ void draw() {
 
 // Send data whenever the user drags the mouse
 void mouseDragged() {
-  // Put the String together with our protocol: mouseX comma mouseY asterisk
-  String out = mouseX + "," + mouseY + "*" ;
+  // Put the String together with our protocol: mouseX comma mouseY newline
+  String out = mouseX + "," + mouseY + "\n" ;
   // A message is sent whenever the mouse is dragged. Note that a client will receive its own messages! Nothing is drawn here!  
   client.write(out); 
   // Print a message indicating we have sent data
