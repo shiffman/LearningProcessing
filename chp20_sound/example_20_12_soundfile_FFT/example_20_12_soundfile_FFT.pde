@@ -12,7 +12,6 @@ int bands = 512;
 
 void setup() {
   size(512, 360);
-
   // Create a new sample object.
   song = new SoundFile(this, "beat.mp3");
 
