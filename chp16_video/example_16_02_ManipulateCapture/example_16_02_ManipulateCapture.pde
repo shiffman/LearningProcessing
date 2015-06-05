@@ -25,7 +25,9 @@ void draw() {
   // Tinting using mouse location
   tint(mouseX, mouseY, 255);
 
-  // A video image can also be tinted and resized just as with a PImage.
+  // A video image can also be moved, rotated, tinted, resized just as with a PImage.
+  translate(width/2,height/2);
+  imageMode(CENTER);
+  rotate(PI/4);
   image(video, 0, 0, mouseX, mouseY);
 }
-

@@ -15,7 +15,7 @@ void setup() {
   star.beginShape();
   // You can set fill and stroke
   star.fill(102);
-  star.stroke(255);
+  star.stroke(0);
   star.strokeWeight(2);
   // Here, we are hardcoding a series of vertices
   star.vertex(0, -50);
@@ -32,10 +32,9 @@ void setup() {
 }
 
 void draw() {
-  background(51);
+  background(255);
   // We can use translate to move the PShape
   translate(mouseX, mouseY);
   // Display the shape
   shape(star);
 }
-

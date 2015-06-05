@@ -12,7 +12,7 @@ Server server;
 int data = 0;
 
 void setup() {
-  size(200, 200);
+  size(200, 200, JAVA2D_2X);
   // Create the Server on port 5204
   server = new Server(this, 5204);
 }
@@ -30,7 +30,7 @@ void draw() {
   server.write(data);
 
   // Arbitrarily changing the value of data randomly
-  data = (data + int(random(-2, 4))) % 256;
+  data = 112;//(data + int(random(-2, 4))) % 256;
 }
 
 // The serverEvent function is called whenever a new client connects.

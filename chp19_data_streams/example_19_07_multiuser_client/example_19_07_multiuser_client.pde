@@ -10,7 +10,7 @@ import processing.net.*;
 Client client;
 
 void setup() {
-  size(200, 200);
+  size(200, 200, JAVA2D_2X);
   // Create the Client
   client = new Client(this, "127.0.0.1", 5204);
   background(255);
@@ -40,7 +40,9 @@ void clientEvent(Client client) {
 void mouseDragged() {
   // Put the String together with our protocol: mouseX comma mouseY newline
   String out = mouseX + "," + mouseY + "\n" ;
-  // A message is sent whenever the mouse is dragged. Note that a client will receive its own messages! Nothing is drawn here!  
+  fill(0, 100);
+  noStroke();
+  ellipse(mouseX, mouseY, 16, 16);  // A message is sent whenever the mouse is dragged. Note that a client will receive its own messages! Nothing is drawn here!  
   client.write(out); 
   // Print a message indicating we have sent data
   println("Sending: " + out);

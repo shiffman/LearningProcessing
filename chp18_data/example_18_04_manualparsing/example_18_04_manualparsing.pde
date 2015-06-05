@@ -19,7 +19,7 @@ void draw() {
   // Display all the stuff we want to display
   image(poster, 10, 10, 164, 250);
   fill(0);
-  text("Mary Poppins", 10, 300);
+  text(name, 10, 300);
   text(runningtime, 10, 320);
 }
 
@@ -59,4 +59,3 @@ String giveMeTextBetween(String s, String before, String after) {
   }
   return s.substring(start, end);    // Return the text in between
 }
-
