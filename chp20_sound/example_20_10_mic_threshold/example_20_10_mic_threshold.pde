@@ -17,7 +17,7 @@ void setup() {
   input = new AudioIn(this, 0);
 
   // start the Audio Input
-  input.play();
+  input.start();
 
   // create a new Amplitude analyzer
   analyzer = new Amplitude(this);

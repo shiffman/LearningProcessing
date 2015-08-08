@@ -17,8 +17,8 @@ void setup() {
 
   // Using the first available port (might be different on your computer)
   port = new Serial(this, Serial.list()[0], 9600);
-  // Request values right off the bat
-  port.write(65);
+  port.bufferUntil('\n');
+
 }
 
 void draw() {
@@ -28,15 +28,16 @@ void draw() {
 
 // Called whenever there is something available to read
 void serialEvent(Serial port) {
-  // Data from the Serial port is read in serialEvent() using the readStringUntil() function with * as the end character.
-  String input = port.readStringUntil('*'); 
+  // Data from the Serial port is read in serialEvent()
+  // using readString()
+  String input = port.readString(); 
 
   if (input != null) {
     // Print message received
     println( "Receiving:" + input);
 
     // The data is split into an array of Strings with a comma or asterisk as a delimiter and converted into an array of integers.
-    int[] vals = int(splitTokens(input, ",*")); 
+    int[] vals = int(split(input, ",")); 
 
     // Fill r,g,b variables
     r = vals[0];

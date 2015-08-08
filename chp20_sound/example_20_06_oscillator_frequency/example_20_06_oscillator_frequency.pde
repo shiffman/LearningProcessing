@@ -17,7 +17,7 @@ void setup() {
 void draw() {
   background(255);
   
-  float freq = map(mouseX, 0, width, 0, 880);
+  float freq = map(mouseX, 0, width, 150, 880);
   osc.freq(freq);
   ellipse(mouseX, 100, 32, 32);
 }

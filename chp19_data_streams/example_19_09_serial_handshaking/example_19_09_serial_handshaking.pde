@@ -19,9 +19,6 @@ void setup() {
   // Using the first available port (might be different on your computer)  
   port = new Serial(this, Serial.list()[0], 9600);
 
-  // Request values from the hardware device
-  // The byte 65 tells the serial device that we want to receive data.
-  port.write(65);
 }
 
 void draw() {
