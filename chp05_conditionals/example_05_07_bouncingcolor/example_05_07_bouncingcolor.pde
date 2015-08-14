@@ -14,7 +14,7 @@ float c1Change = 1;
 float c2Change = -1; 
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

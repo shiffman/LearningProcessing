@@ -12,7 +12,7 @@ int cols = 32;
 int rows = 18;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   grid = new Cell[cols][rows];
 
   // The counter variables i and j are also the column and row numbers

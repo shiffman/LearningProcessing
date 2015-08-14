@@ -9,7 +9,7 @@
 PShape star;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   // First create the shape
   star = createShape();
   star.beginShape();

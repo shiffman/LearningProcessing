@@ -4,7 +4,7 @@
 
 // Example 6-2: Many lines with variables
 
-size(480, 240);
+size(480, 270);
 background(255);
 
 // Legs

@@ -11,7 +11,7 @@ String message = "click mouse to shake it up";
 Letter[] letters;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 
   // Load the font
   f = createFont("Arial", 20);

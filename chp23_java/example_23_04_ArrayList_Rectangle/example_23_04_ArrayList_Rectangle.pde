@@ -14,7 +14,7 @@ ArrayList<Particle> particles;
 Rectangle blackhole;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   blackhole = new Rectangle(200, 200, 150, 75);
   particles = new ArrayList<Particle>();
 }

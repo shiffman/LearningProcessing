@@ -6,7 +6,7 @@
 Zoog zoog;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   zoog = new Zoog(width/2,height/2,60,60,16);
 }
 

@@ -14,7 +14,7 @@ float x;
 float y;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   background(255);
 }
 

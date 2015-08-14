@@ -21,7 +21,7 @@ int levelCounter = 0;
 PFont f;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   catcher = new Catcher(32); // Create the catcher with a radius of 32
   drops = new Drop[50];      // Create 50 spots in the array (each level now just has 25 drops)
   timer = new Timer(300);    // Create a timer that goes off every 300 milliseconds

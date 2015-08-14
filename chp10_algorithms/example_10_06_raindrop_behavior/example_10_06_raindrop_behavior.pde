@@ -8,7 +8,7 @@
 float x, y; 
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   background(0);
   x = width/2;
   y = 0;

@@ -7,7 +7,7 @@
 float theta = 0.0;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

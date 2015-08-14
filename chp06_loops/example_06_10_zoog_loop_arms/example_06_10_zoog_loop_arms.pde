@@ -12,7 +12,7 @@ int eyeSize = 16;
 int speed = 1;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

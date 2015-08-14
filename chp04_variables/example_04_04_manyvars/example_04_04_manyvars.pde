@@ -16,7 +16,7 @@ float change = 0.5;
 
 // Your basic setup
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

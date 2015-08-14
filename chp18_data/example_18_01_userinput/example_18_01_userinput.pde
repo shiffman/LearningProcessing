@@ -13,7 +13,7 @@ String typing = "";
 String saved = "";
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   f = createFont("Arial",16);
 }
 

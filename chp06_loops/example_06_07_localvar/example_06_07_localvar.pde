@@ -5,7 +5,7 @@
 // Example 6-7: Local variables
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   // x is not available! It is local to the draw() block of code.
 }
 

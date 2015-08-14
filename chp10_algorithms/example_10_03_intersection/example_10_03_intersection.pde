@@ -9,7 +9,7 @@ Ball ball1;
 Ball ball2;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 
   // Initialize balls
   ball1 = new Ball(64);

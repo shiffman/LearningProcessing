@@ -5,7 +5,7 @@
 // Example 13-8: Recursion
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

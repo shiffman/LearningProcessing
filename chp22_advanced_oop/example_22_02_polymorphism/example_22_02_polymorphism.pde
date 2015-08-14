@@ -8,7 +8,7 @@
 Shape[] shapes = new Shape[30];
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 
   for (int i = 0; i < shapes.length; i++ ) {
     int r = int(random(2));

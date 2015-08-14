@@ -11,7 +11,7 @@ Drop[] drops = new Drop[1000];
 int totalDrops = 0;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {

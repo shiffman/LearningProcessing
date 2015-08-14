@@ -4,7 +4,7 @@
 
 // Example 3-3: Zoog as dynamic sketch with variation
 void setup() {
-  size(480, 240);  // Set the size of the window
+  size(480, 270);  // Set the size of the window
 }
 
 void draw() {

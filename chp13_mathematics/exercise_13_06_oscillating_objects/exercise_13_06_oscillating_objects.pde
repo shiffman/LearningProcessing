@@ -10,7 +10,7 @@
 Oscillator[] oscillators = new Oscillator[10];
 
 void setup()  {   
-  size(480, 240);  
+  size(480, 270);  
   // Initialize all objects
   for (int i = 0; i < oscillators.length; i++) {
     oscillators[i] = new Oscillator();

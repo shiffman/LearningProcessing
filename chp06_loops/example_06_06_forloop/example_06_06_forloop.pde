@@ -4,7 +4,7 @@
 
 // Example 6-6: Legs with a for loop
 
-size(480, 240);
+size(480, 270);
 background(255);
 
 int y = 80;       // Vertical location of each line

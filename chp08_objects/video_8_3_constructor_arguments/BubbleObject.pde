@@ -2,7 +2,7 @@ Bubble b1;
 Bubble b2;
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
   b1 = new Bubble(64);
   b2 = new Bubble(16);
 }

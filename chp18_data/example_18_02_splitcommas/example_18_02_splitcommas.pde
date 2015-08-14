@@ -7,7 +7,7 @@
 int[] data;
 
 void setup() { 
-  size(480, 240);
+  size(480, 270);
   // The text from the file is loaded into an array. 
   String[] stuff = loadStrings("data.txt");
   // This array has one element because the file only has one line. 

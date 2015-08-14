@@ -11,7 +11,7 @@ int len = 20;      // Length of each line
 int endLegs = 150; // Where should the lines stop?
 
 void setup() {
-  size(480, 240);
+  size(480, 270);
 }
 
 void draw() {
