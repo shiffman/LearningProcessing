@@ -8,7 +8,7 @@
 float[] randomCounts;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   randomCounts = new float[width/20];
 }
 

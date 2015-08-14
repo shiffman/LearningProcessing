@@ -8,7 +8,7 @@
 Stripe[] stripes = new Stripe[10];
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   
   // Initialize all Stripe objects
   for (int i = 0; i < stripes.length; i ++ ) {

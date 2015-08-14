@@ -7,7 +7,7 @@
 PFont f;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   f = createFont("Arial", 16);
 }
 

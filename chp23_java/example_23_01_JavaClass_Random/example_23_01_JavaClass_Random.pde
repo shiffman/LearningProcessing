@@ -9,7 +9,7 @@ import java.util.Random;
 Random r;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   // Declaring a Random object and calling the constructor as found at:
   // http://docs.oracle.com/javase/8/docs/api/java/util/Random.html
   r = new Random(); 

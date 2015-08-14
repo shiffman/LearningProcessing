@@ -7,7 +7,7 @@
 Car[] cars = new Car[180]; // An array of 100 Car objects!
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   for (int i = 0; i < cars.length; i ++ ) { // Initialize each Car using a for loop.
     cars[i] = new Car(color(i*2),0,i*2,i/20.0); 
   }

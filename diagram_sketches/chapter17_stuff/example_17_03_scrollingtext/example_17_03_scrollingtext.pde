@@ -14,7 +14,7 @@ float x; // Horizontal location
 int index = 0;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 
   // Initialize headline offscreen
   x = width;

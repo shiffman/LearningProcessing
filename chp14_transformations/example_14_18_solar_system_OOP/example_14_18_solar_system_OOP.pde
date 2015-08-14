@@ -8,7 +8,7 @@
 Planet[] planets = new Planet[4];
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   
   // The planet objects are initialized using the counter variable
   for (int i = 0; i < planets.length; i++ ) {

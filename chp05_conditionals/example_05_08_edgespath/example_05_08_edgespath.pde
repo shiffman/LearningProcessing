@@ -14,7 +14,7 @@ int speed = 5;  // speed of square
 int state = 0;  
 
 void setup() {
-  size(640,360);
+  size(480, 240);
 }
 
 void draw() {

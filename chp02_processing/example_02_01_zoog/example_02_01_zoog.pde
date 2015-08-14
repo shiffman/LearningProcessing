@@ -3,7 +3,7 @@
 // http://www.learningprocessing.com
 
 // Example 2-1: Zoog again
-size(640, 360);
+size(480, 240);
 background(255);
 ellipseMode(CENTER);
 rectMode(CENTER); 

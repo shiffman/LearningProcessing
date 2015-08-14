@@ -9,7 +9,7 @@ String message = "this text is spinning";
 float theta;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   f = createFont("Arial", 20);
 }
 

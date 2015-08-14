@@ -4,7 +4,7 @@
 
 // Example 6-1: Many lines 
    
-size(640,360);  
+size(480, 240);  
 background(255);  
 // Legs  
 stroke(0);  

@@ -7,7 +7,7 @@
 ArrayList<Particle> particles;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   particles = new ArrayList<Particle>();
 }
 

@@ -25,7 +25,7 @@ public class example_3_1_setupdraw extends PApplet {
 
 public void setup() {
   // Set the size of the window
-  size(640, 360);
+  size(480, 240);
 }
 
 // draw() loops continuously until you close the sketch window.

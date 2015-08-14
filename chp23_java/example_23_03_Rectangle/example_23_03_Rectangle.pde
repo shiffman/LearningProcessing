@@ -9,7 +9,7 @@ import java.awt.Rectangle;
 Rectangle rect1, rect2;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   // The arguments for the constructor (x,y,width,height) are documented in the Java reference: 
   // http://docs.oracle.com/javase/8/docs/api/java/awt/Rectangle.html
   rect1 = new Rectangle(100, 75, 50, 50); 

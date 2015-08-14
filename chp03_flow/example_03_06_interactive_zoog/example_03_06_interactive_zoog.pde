@@ -5,7 +5,7 @@
 // Example 3-6: Interactive Zoog?
 void setup() {
   // Set the size of the window
-  size(640,360);  
+  size(480, 240);  
   // The frame rate is set to 30 frames per second.
   frameRate(30);
 }

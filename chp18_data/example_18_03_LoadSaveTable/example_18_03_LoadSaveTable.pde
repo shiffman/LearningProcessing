@@ -21,7 +21,7 @@ Bubble[] bubbles;
 Table table;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   loadData();
 }
 

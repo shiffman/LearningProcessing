@@ -5,7 +5,7 @@
 // Example 13-3: Probabilities
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   background(255);
   noStroke();
 }

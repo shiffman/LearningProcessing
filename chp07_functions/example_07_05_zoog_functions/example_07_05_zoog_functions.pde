@@ -11,7 +11,7 @@ float h = 60;
 float eyeSize = 16;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 }
 
 void draw() {

@@ -13,7 +13,7 @@ float ytime = 100.0;
 float increment = 0.01;  
 
 void setup() {   
-  size(640, 360);  
+  size(480, 240);  
 }   
 
 void draw() {   

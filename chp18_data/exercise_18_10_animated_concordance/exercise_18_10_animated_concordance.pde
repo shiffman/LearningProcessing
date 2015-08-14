@@ -24,7 +24,7 @@ String[] tokens;
 int counter = 0;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 
   concordance = new IntDict();
 

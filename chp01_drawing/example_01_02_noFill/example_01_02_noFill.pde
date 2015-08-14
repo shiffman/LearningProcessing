@@ -3,7 +3,7 @@
 // http://www.learningprocessing.com
 
 // Example 1-2: noFill
-size(640,360);
+size(480, 240);
 background(255);
 
 // noFill() leaves the shape with only an outline.

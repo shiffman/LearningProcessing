@@ -15,7 +15,7 @@ float x; // Horizontal location
 int index = 0;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   f = createFont( "Arial", 16);
 
   // Initialize headline offscreen

@@ -9,7 +9,7 @@ int h = 60;
 int eyeSize = 16;
 
 void setup() {
-  size(640,360);
+  size(480, 240);
 }
 
 void draw() {

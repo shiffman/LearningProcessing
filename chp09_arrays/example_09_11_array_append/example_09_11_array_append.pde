@@ -8,7 +8,7 @@ Ball[] balls = new Ball[1]; // We start with an array with just one element.
 float gravity = 0.1;
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   
   // Initialize ball index 0
   balls[0] = new Ball(50,0,24);

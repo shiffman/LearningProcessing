@@ -9,7 +9,7 @@ int[] xpos = new int[50];
 int[] ypos = new int[50];
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   
   // Initialize all elements of each array to zero.
   for (int i = 0; i < xpos.length; i ++ ) {

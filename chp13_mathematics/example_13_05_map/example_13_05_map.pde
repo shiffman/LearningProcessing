@@ -5,7 +5,7 @@
 // Example 13-4: Using map()
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 }
 
 void draw() {

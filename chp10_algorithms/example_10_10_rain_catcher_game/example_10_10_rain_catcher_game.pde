@@ -10,7 +10,7 @@ Drop[] drops;       // An array of drop objects
 int totalDrops = 0; // totalDrops
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   catcher = new Catcher(32); // Create the catcher with a radius of 32
   drops = new Drop[1000];    // Create 1000 spots in the array
   timer = new Timer(300);    // Create a timer that goes off every 300 milliseconds

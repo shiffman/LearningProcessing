@@ -8,7 +8,7 @@
 Breather[] breathers = new Breather[25];
 
 void setup() {   
-  size(640, 360);  
+  size(480, 240);  
   // Initialize all objects
   for (int i = 0; i < breathers.length; i++) {
     breathers[i] = new Breather();

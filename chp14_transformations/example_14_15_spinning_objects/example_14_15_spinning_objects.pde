@@ -8,7 +8,7 @@
 Rotater[] rotaters;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 
   rotaters = new Rotater[20];
 

@@ -13,7 +13,7 @@ Amplitude analyzer;
 
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   song = new SoundFile(this, "beat.mp3");
   song.loop();
 

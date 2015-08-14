@@ -7,7 +7,7 @@ int x = 0;
 int speed = 2;
 
 void setup() {
-  size(640,360);
+  size(480, 240);
 }
 
 void draw() {

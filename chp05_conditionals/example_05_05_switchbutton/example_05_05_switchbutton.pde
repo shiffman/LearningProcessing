@@ -11,7 +11,7 @@ int w = 100;
 int h = 75;
 
 void setup() {
-  size(640,360); 
+  size(480, 240); 
 }
 
 void draw() {

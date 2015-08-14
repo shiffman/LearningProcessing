@@ -5,7 +5,7 @@
 // Example 14-9: Rotate around more than one axis
 
 void setup() {
-  size(640, 360, P3D);
+  size(480, 240, P3D);
 }
 
 void draw() {

@@ -15,7 +15,7 @@ float speed = 0;   // speed of square
 float gravity = 0.1;  
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 }
 
 void draw() {

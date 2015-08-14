@@ -7,7 +7,7 @@
 Catcher catcher;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   catcher = new Catcher(32);
 }
 

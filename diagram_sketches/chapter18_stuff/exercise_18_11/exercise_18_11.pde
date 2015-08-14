@@ -27,7 +27,7 @@ int counter = 0;
 PFont f;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
 
   concordance = new IntDict();
 

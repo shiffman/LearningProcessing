@@ -30,7 +30,7 @@ Bubble[] bubbles;
 XML xml;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   loadData();
 }
 

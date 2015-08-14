@@ -10,7 +10,7 @@ import processing.sound.*;
 SoundFile song;
 
 void setup() {
-  size(640, 360);
+  size(480, 240);
   song = new SoundFile(this, "beat.mp3");
   song.play();
 }

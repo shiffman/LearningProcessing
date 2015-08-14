@@ -8,7 +8,7 @@
 int y = 0;
 
 void setup() {
-  size(640,360);
+  size(480, 240);
   background(255);
   // Slowing down the frame rate so we can easily see the effect.
   frameRate(5); 

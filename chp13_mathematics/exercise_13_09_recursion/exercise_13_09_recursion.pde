@@ -7,7 +7,7 @@
 // which is covered in Chapter 14).         
 
 void setup() {   
-  size(640, 360);
+  size(480, 240);
 }   
 
 void draw() {   
