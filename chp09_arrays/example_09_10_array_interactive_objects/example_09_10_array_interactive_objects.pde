@@ -22,7 +22,7 @@ void draw() {
   // Move and display all Stripe objects
   for (int i = 0; i < stripes.length; i ++ ) {
     // Check if mouse is over the Stripe
-    stripes[i].rollover(mouseX,mouseY); // Passing the mouse coordinates into an object.
+    stripes[i].rollover(mouseX,mouseY);
     stripes[i].move();
     stripes[i].display();
   }
