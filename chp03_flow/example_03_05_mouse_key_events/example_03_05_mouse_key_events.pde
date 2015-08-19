@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
- // Nothing happens in draw() in this example!
+  // Nothing happens in draw() in this example!
 }
 
 // Whenever a user clicks the mouse the code written inside mousePressed() is executed.
@@ -17,7 +17,7 @@ void mousePressed() {
   stroke(0);
   fill(175);
   rectMode(CENTER);
-  rect(mouseX,mouseY,16,16);
+  rect(mouseX, mouseY, 16, 16);
 }
 
 // Whenever a user presses a key the code written inside keyPressed() is executed.

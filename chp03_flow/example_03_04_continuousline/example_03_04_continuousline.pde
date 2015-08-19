@@ -10,7 +10,7 @@ void setup() {
 
 void draw() {
   stroke(0);
-  
+
   // Draw a line from previous mouse location to current mouse location.
   line(pmouseX, pmouseY, mouseX, mouseY);
 }

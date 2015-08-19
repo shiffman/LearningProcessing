@@ -1,15 +1,15 @@
 void setup() {
-  size(200, 200);
+  size(480, 270);
 }
 
 void draw() {
   background(255);
   rectMode(CENTER);
   ellipseMode(CENTER);
-  
+
   // Draw everything relative to (mouseX, mouseY)
   translate(mouseX, mouseY);
-  
+
   // Draw Zoog's body
   stroke(0);
   fill(175);
