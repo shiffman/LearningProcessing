@@ -13,5 +13,5 @@ int len = 20;     // Length of each line
 
 // Translation of the legs while loop to a for loop.
 for (int x = 50; x <= 150; x += spacing) { 
-  line(x,y,x,y + len);
+  line(x, y, x, y + len);
 }
