@@ -10,27 +10,21 @@ void setup() {
 void draw() {
   background(255);
   stroke(0);
-  line(320,0,320,360);
-  line(0,180,640,180);
-  
+  line(240, 0, 240, 270);
+  line(0, 135, 480, 135);
+
   // Fill a black color
   noStroke();
   fill(0);
 
   // Depending on the mouse location, a different rectangle is displayed.    
-  if (mouseX < 320 && mouseY < 180) {
-    rect(0,0,320,180);
-  } else if (mouseX > 320 && mouseY < 180) {
-    rect(320,0,320,180);
-  } else if (mouseX < 320 && mouseY > 180) {
-    rect(0,180,320,180);
-  } else if (mouseX > 320 && mouseY > 180) {
-    rect(320,180,320,180);
+  if (mouseX < 240 && mouseY < 135) {
+    rect(0, 0, 240, 135);
+  } else if (mouseX > 240 && mouseY < 135) {
+    rect(240, 0, 240, 135);
+  } else if (mouseX < 240 && mouseY > 135) {
+    rect(0, 135, 240, 135);
+  } else if (mouseX > 240 && mouseY > 135) {
+    rect(240, 135, 240, 135);
   }
 }
-
-
-
-
-
-

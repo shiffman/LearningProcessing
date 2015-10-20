@@ -11,7 +11,7 @@ int w = 100;
 int h = 75;
 
 void setup() {
-  size(480, 270); 
+  size(480, 270);
 }
 
 void draw() {
@@ -22,22 +22,16 @@ void draw() {
     background(0);
     stroke(255);
   }
-  
+
   fill(175);
-  rect(x,y,w,h);
+  rect(x, y, w, h);
 }
 
 // When the mouse is pressed, the state of the button is toggled.   
-// Try moving this code to draw() like in the rollover example.  What goes wrong?
+// Try moving this code to draw() like in the rollover example.  
+// What goes wrong?
 void mousePressed() {
   if (mouseX > x && mouseX < x+w && mouseY > y && mouseY < y+h) {
     button = !button;
-  }  
+  }
 }
-
-
-
-
-
-
-

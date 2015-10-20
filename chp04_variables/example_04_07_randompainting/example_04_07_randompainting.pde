@@ -19,7 +19,8 @@ void setup() {
 }
 
 void draw() {
-  // Each time through draw(), new random numbers are picked for a new ellipse.
+  // Each time through draw(), new random 
+  // numbers are picked for a new ellipse.
   r = random(255);
   g = random(255);
   b = random(255);
@@ -27,12 +28,9 @@ void draw() {
   diam = random(20);
   x = random(width);
   y = random(height);
-  
+
   // Use values to draw an ellipse
   noStroke();
-  fill(r,g,b,a);
-  ellipse(x,y,diam,diam);
+  fill(r, g, b, a);
+  ellipse(x, y, diam, diam);
 }
-
-
-

@@ -21,14 +21,16 @@ void setup() {
 
 void draw() {
   // Draw the background and the ellipse
-  // Variables are used for everything: background, stroke, fill, location, and size.
+  // Variables are used for everything: 
+  // background, stroke, fill, location, and size.
   background(backgroundColor);
   stroke(circleStroke);
   fill(circleFill);
-  ellipse(circleX,circleY,circleW,circleH);
+  ellipse(circleX, circleY, circleW, circleH);
 
   // Change the values of all variables
-  // The variable change is used to increment and decrement the other variables.
+  // The variable change is used to increment 
+  // and decrement the other variables.
   circleX = circleX + change;
   circleY = circleY + change;
   circleW = circleW + change;
@@ -36,4 +38,3 @@ void draw() {
   circleStroke = circleStroke - change;
   circleFill = circleFill + change;
 }
-

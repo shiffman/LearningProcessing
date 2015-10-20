@@ -15,10 +15,9 @@ void draw() {
   rectMode(CENTER);
   // The rectangle will always be in the middle of the window 
   // if it is located at (width/2, height/2).
-  rect(width/2,height/2,mouseX+10,mouseY+10);
+  rect(width/2, height/2, mouseX+10, mouseY+10);
 }
 
 void keyPressed() {
   println(key);
 }
-

@@ -17,6 +17,5 @@ void draw() {
   stroke(0);
   fill(175);
   // Use the variables to specify the location of an ellipse.
-  ellipse(circleX,circleY,50,50);
+  ellipse(circleX, circleY, 50, 50);
 }
-
