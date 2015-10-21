@@ -35,7 +35,7 @@ class Ball {
   
   void display() {
     // Display the circle
-    fill(101`);
+    fill(101);
     stroke(0);
     ellipse(x,y,w,w);
   }
