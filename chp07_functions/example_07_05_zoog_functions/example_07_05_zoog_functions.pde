@@ -15,7 +15,7 @@ void setup() {
 }
 
 void draw() {
-  background(255); // Draw a black background
+  background(255); // Draw a white background
 
   // A color based on distance from the mouse
   float d = dist(x, y, mouseX, mouseY);
