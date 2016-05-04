@@ -6,7 +6,7 @@
 
 PFont f;
 String message = "this text is spinning";
-float theta;
+float angle;
 
 void setup() {
   size(480, 270);
@@ -21,7 +21,7 @@ void draw() {
   textAlign(CENTER);
   pushMatrix();
   translate(width/2, height/2); // Translate to the center
-  rotate(theta);                // Rotate by theta
+  rotate(angle);                // Rotate by theta
 
   // The text is center aligned and displayed at (0,0) after translating and rotating. 
   // See Chapter 14 or a review of translation and rotation.
@@ -29,5 +29,5 @@ void draw() {
   popMatrix();
 
   // Increase rotation
-  theta += 0.02;
+  angle += 0.02;
 }
