@@ -17,10 +17,10 @@ void draw() {
   count = count + 1;
   background(count);
 }
-________
-
-
+// ________
 */
+
+/*
 //SKETCH #2: Local "count"
 
 void setup() {
@@ -32,6 +32,5 @@ void draw() {
   count = count + 1;
   background(count);
 }
-/*
-________
+// ________
 */
