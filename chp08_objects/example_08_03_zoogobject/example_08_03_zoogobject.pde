@@ -3,10 +3,12 @@
 // http://www.learningprocessing.com
 
 // Example 8-3
+// Zoog is an object!
 Zoog zoog;
 
 void setup() {
   size(480, 270);
+  // Zoog is given initial properties via the constructor.
   zoog = new Zoog(width/2,height/2,60,60,16);
 }
 
@@ -14,10 +16,14 @@ void draw() {
   background(255);
   // mouseX position determines speed factor
   float factor = constrain(mouseX/10,0,5);
+  // Zoog can do stuff with functions!
   zoog.jiggle(factor);
   zoog.display();
 }
 
+// Everything about Zoog is contained in this one class.
+// Zoog has properties (location, width, height, eye size)
+// and Zoog has abilities (jiggle, display).
 class Zoog {
   // Zoog's variables
   float x,y,w,h,eyeSize;
