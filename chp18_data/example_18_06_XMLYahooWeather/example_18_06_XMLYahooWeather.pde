@@ -17,13 +17,8 @@ String city = "";
 // Search for "woeid lookup" to find your own.
 String woeid = "638242";
 
-PFont font;
-
 void setup() {
   size(600, 360);
-
-  font = createFont("Merriweather-Light.ttf", 28);
-  textFont(font);
 
   // The URL for the XML document
   String url = "http://query.yahooapis.com/v1/public/yql?format=xml&q=select+*+from+weather.forecast+where+woeid=" + woeid + "+and+u='C'";
@@ -47,8 +42,8 @@ void draw() {
   fill(0);
 
   // Display all the stuff we want to display
+  textSize(28);
   text("Location: " + city, width*0.15, height*0.33);
   text("Today’s high: " + temperature, width*0.15, height*0.5);
   text("Forecast: " + weather, width*0.15, height*0.66);
-
 }
