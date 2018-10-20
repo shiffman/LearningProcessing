@@ -12,7 +12,7 @@ Client client;
 int data;
 
 void setup() {
-  size(200, 200, JAVA2D_2X);
+  size(200, 200);
   // Create the Client
   client = new Client(this, "127.0.0.1", 5204);
 }

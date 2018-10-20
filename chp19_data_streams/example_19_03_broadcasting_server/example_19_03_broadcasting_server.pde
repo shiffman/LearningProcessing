@@ -12,7 +12,7 @@ Server server;
 int data = 0;
 
 void setup() {
-  size(200, 200, JAVA2D_2X);
+  size(200, 200);
   // Create the Server on port 5204
   server = new Server(this, 5204);
 }
