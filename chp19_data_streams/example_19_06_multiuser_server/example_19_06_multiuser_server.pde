@@ -13,7 +13,7 @@ Server server;
 String incomingMessage = "";
 
 void setup() {
-  size(400, 200,JAVA2D_2X);
+  size(400, 200);
 
   // Create the Server on port 5204
   server = new Server(this, 5204);
