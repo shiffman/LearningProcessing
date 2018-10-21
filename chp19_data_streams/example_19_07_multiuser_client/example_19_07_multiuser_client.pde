@@ -8,6 +8,8 @@
 import processing.net.*;
 // Declare a client
 Client client;
+// Store mouse X/Y in this array
+int[] vals = new int[2];
 
 void setup() {
   size(200, 200);
@@ -17,6 +19,10 @@ void setup() {
 }
 
 void draw() {
+  // Render an ellipse based on the current values
+  fill(0, 100);
+  noStroke();
+  ellipse(vals[0], vals[1], 16, 16);
 }
 
 // If there is information available to read from the Server
@@ -27,12 +33,7 @@ void clientEvent(Client client) {
     // Print message received
     println( "Receiving:" + in);
     // The client reads messages from the Server and parses them with splitTokens() according to our protocol.    
-    int[] vals = int(splitTokens(in, ",\n")); 
-
-    // Render an ellipse based on those values
-    fill(0, 100);
-    noStroke();
-    ellipse(vals[0], vals[1], 16, 16);
+    vals = int(splitTokens(in, ",\n"));
   }
 }
 
@@ -40,9 +41,7 @@ void clientEvent(Client client) {
 void mouseDragged() {
   // Put the String together with our protocol: mouseX comma mouseY newline
   String out = mouseX + "," + mouseY + "\n" ;
-  fill(0, 100);
-  noStroke();
-  ellipse(mouseX, mouseY, 16, 16);  // A message is sent whenever the mouse is dragged. Note that a client will receive its own messages! Nothing is drawn here!  
+  // A message is sent whenever the mouse is dragged. Note that a client will receive its own messages! Nothing is drawn here!  
   client.write(out); 
   // Print a message indicating we have sent data
   println("Sending: " + out);
