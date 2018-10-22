@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 19-3: Go back and rewrite the therapy client
+// Exercise 19-4: Go back and rewrite the therapy client
 // to use <code>clientEvent()</code> rather than 
 // client.available() in draw(). This is trickier than 
 // it might initially seem because it requires the use 

@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 19-5: Create a two-player game of Pong 
+// Exercise 19-6: Create a two-player game of Pong 
 // played over the network. This is a complex assignment, 
 // so build it up slowly. For instance, you should get 
 // Pong to work first without networking (if you are 
