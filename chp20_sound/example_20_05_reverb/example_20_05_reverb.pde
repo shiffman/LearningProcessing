@@ -13,7 +13,7 @@ void setup() {
   size(200, 200);
 
   // Load a sound file
-  song = new SoundFile(this, "beat.mp3");
+  song = new SoundFile(this, "beat.wav");
   song.loop();
 
   reverb = new Reverb(this);
