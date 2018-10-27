@@ -4,7 +4,7 @@ SoundFile soundFile;
 
 void setup() {
   size(200, 200); 
-  soundFile = new SoundFile(this, "beat.mp3");
+  soundFile = new SoundFile(this, "beat.wav");
   soundFile.loop();
 }
 

@@ -13,7 +13,7 @@ int bands = 512;
 void setup() {
   size(512, 360);
   // Create a new sample object.
-  song = new SoundFile(this, "beat.mp3");
+  song = new SoundFile(this, "beat.wav");
 
   // Loop the sound forever
   // (well, at least until stop() is called)

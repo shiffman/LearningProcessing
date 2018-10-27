@@ -12,7 +12,7 @@ FFT fft;
 void setup() {
   size(514, 360);
 
-  song = new SoundFile(this, "beat.mp3");
+  song = new SoundFile(this, "beat.wav");
   song.loop();
 
   fft = new FFT(this, 64);
